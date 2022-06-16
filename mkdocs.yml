@@ -21,10 +21,5 @@ extra_css:
 nav:
   - Início: index.md
 
-  - Planejamento:
-      - Metodologia: 
-      - Ferramentas: 
-      - Cronograma: 
-
 plugins:
   - search
