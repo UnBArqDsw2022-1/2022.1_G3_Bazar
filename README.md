@@ -1,31 +1,61 @@
 # RepositorioTemplate
+Esse repositório é para ser utilizado pelos grupos como um template inicial, da home page do Projeto.
+As seções do Template NÃO DEVEM SER OMITIDAS, sendo TODAS RELEVANTES.
+Demais diretrizes sobre a organização da wiki constam no Moodle Aprender 3.
 
-Repositório que deve ser utilizado como template inicial pelos grupos da matéria de Arquitetura e Desenho de Software.
+**!! Atenção: Renomeie o seu repositório para (Ano.Semestre)_(Grupo)_(NomeDoProjeto)*. !!** 
 
-## Introdução
+**!! *Não coloque os nomes dos alunos no título do repositório*. !!**
 
-Este repositório traz um template de repo de documentação a ser seguido pelos grupos de arquitetura e desenho de software.
+**!! *Exemplo de título correto: 2022.1_G1_ProjetoPandora*. !!** 
+ 
+ (Apague esses comentários)
 
-## Tecnologia
+# Nome do Projeto
 
-A geração do site estático é realizada utilizando o [docsify](https://docsify.js.org/).
+**Código da Disciplina**: FGA0208<br>
+**Número do Grupo**: XX<br>
 
-```shell
-"Docsify generates your documentation website on the fly. Unlike GitBook, it does not generate static html files. Instead, it smartly loads and parses your Markdown files and displays them as a website. To start using it, all you need to do is create an index.html and deploy it on GitHub Pages."
-```
+## Alunos
+|Matrícula | Aluno |
+| -- | -- |
+| 18/0011600  |  Ailton Aires Amado  |
+| 19/0054832  |  Arthur Talles de Sousa Cunha |
+| 19/0025298  |  Bianca Sofia Brasil de Oliveira |
+| 19/0012200  |  Douglas da Silva Monteles |
+| 19/0045485  |  Eduardo Gurgel Pereira de Carvalho  |
+| 19/0045817  |  Gabriel Costa de Oliveira |
+| 16/0124735  |  Iago Oliveira Monteiro Ribeiro |
+| 18/0042386  |  Kevin Luis Apolinario Batista |
+| 19/0046848  |  Lais Portela de Aguiar |
+| 17/0164257  |  Ugor Marcilio Brandão Costa  |
 
-### Instalando o docsify
+## Sobre 
+Descreva o seu projeto em linhas gerais.
+Use referências, links, que permitam conhecer um pouco mais sobre o projeto.
 
-Execute o comando:
+## Screenshots Primeira Entrega <<FOCO: DSW(Base)>>
+Adicione 2 ou mais screenshots do projeto em termos de artefatos da Primeira Entrega.
 
-```shell
-npm i docsify-cli -g
-```
+## Screenshots Segunda Entrega <<FOCO: DSW(Modelagem)>>
+Adicione 2 ou mais screenshots do projeto em termos de artefatos da Segunda Entrega.
 
-### Executando localmente
+## Screenshots Terceira Entrega <<FOCO: DSW(Padrões de Projeto)>>
+Adicione 2 ou mais screenshots do projeto em termos de artefatos da Terceira Entrega.
 
-Para iniciar o site localmente, utilize o comando:
+## Screenshots Quarta Entrega (FINAL) <<FOCOS: Arquitetura & Reutilização de Software & PROJETO FINAL>>
+Adicione 2 ou mais screenshots do projeto em termos de interface e/ou funcionamento.
 
-```shell
-docsify serve ./docs
-```
+## Descritivo dos Principais Aspectos Técnicos 
+**Principal(is) Metodologia(s) Adotada(s)**: xxxxxx<br>
+**Principais Linguagens Utilizadas e/ou Pretendidas**: xxxxxx<br>
+**Principais Tecnologias Utilizadas e/ou Pretendidas**: xxxxxx<br>
+**Principal(is) Estilo(s) Arquitetural(is) Adotado(s)**: xxxxxx<br>
+
+## O Projeto está rodando?
+( ) SIM
+( ) NÃO
+Se SIM, insira um manual (ou um script) para auxiliar ainda mais os interessados em consultar o projeto.
+
+## Informações Complementares 
+Quaisquer outras informações sobre seu projeto podem ser descritas nessa seção.
