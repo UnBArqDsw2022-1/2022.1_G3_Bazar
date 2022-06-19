@@ -20,6 +20,7 @@ extra_css:
 
 nav:
   - Início: index.md
+  - Modelagem: site/Modelagem/2.1.1.UMLEstaticos/uml.md
 
 plugins:
   - search
