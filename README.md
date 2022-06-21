@@ -19,7 +19,7 @@ Demais diretrizes sobre a organização da wiki constam no Moodle Aprender 3.
 ## Alunos
 |Matrícula | Aluno |
 | -- | -- |
-| 18/0011600  |  Ailton Aires Amado  |
+| 18/0011600  | Ailton Aires Amado  |
 | 19/0054832  |  Arthur Talles de Sousa Cunha |
 | 19/0025298  |  Bianca Sofia Brasil de Oliveira |
 | 19/0012200  |  Douglas da Silva Monteles |
