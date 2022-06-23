@@ -1,0 +1,27 @@
+site_name: "grupo-03"
+
+repo_name: "grupo-03"
+repo_url: "https://unbarqdsw2022-1.github.io/grupo-03/"
+
+theme:
+  name: "material"
+  language: "pt"
+  logo: "assets/favicon.svg"
+  favicon: "assets/favicon.svg"
+  palette:
+    primary: "#fff"
+    accent: "#0B4D9B"
+  font:
+    text: "Montserrat"
+    code: "sans-serif"
+
+extra_css:
+  - stylesheets/styles.css
+
+nav:
+  - Início: index.md
+  - Modelagem: site/Modelagem/2.1.1.UMLEstaticos/uml.md
+  - Design Sprint: site/Modelagem/2.1.1.UMLEstaticos/uml.md
+
+plugins:
+  - search
