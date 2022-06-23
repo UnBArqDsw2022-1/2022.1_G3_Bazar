@@ -19,8 +19,16 @@ Demais diretrizes sobre a organização da wiki constam no Moodle Aprender 3.
 ## Alunos
 |Matrícula | Aluno |
 | -- | -- |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
+| 18/0011600  | Ailton Aires Amado  |
+| 19/0054832  |  Arthur Talles de Sousa Cunha |
+| 19/0025298  |  Bianca Sofia Brasil de Oliveira |
+| 19/0012200  |  Douglas da Silva Monteles |
+| 19/0045485  |  Eduardo Gurgel Pereira de Carvalho  |
+| 19/0045817  |  Gabriel Costa de Oliveira |
+| 16/0124735  |  Iago Oliveira Monteiro Ribeiro |
+| 18/0042386  |  Kevin Luis Apolinario Batista |
+| 19/0046848  |  Lais Portela de Aguiar |
+| 17/0164257  |  Ugor Marcilio Brandão Costa  |
 
 ## Sobre 
 Descreva o seu projeto em linhas gerais.
