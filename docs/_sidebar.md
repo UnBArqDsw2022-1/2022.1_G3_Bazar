@@ -36,3 +36,4 @@
 
 - **Pré-Rastreabilidade**
   - [1. Rich Pictures](./PreRastreabilidade/RichPicture.md)
+  - [2. Rich Picture Escolhido](./PreRastreabilidade/RichPictureEscolhido.md)
