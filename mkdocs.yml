@@ -1,7 +1,7 @@
-site_name: "grupo-03"
+site_name: "2022.1_G3_Bazar"
 
-repo_name: "grupo-03"
-repo_url: "https://unbarqdsw2022-1.github.io/grupo-03/"
+repo_name: "2022.1_G3_Bazar"
+repo_url: "https://unbarqdsw2022-1.github.io/2022.1_G3_Bazar/"
 
 theme:
   name: "material"
