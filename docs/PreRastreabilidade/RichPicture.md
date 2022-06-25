@@ -61,5 +61,5 @@ Um Rich Picture é um artefato utilizado a fim de demonstrar, através de um des
 
 |Versão|Data de modificação|Descrição da modificação|Autor(es)|Revisor(es)|
 |-|-|-|-|-|
-|1.0|24/06/2022|Adicionando os rich pictures produzidos pelo grupo|[Ugor Marcilio](https://github.com/ubrando), [Bianca Sofia](https://github.com/biancasofia), [Douglas Monteles](https://github.com/douglasmonteles)|https://github.com/GabrielCostaDeOliveira|
+|1.0|24/06/2022|Adicionando os rich pictures produzidos pelo grupo|[Ugor Marcilio](https://github.com/ubrando), [Bianca Sofia](https://github.com/biancasofia), [Douglas Monteles](https://github.com/douglasmonteles)|[Gabriel Costa](https://github.com/GabrielCostaDeOliveira)|
 |1.1|25/06/2022|Adicionando os rich pictures produzidos pelo grupo|[Gabriel Costa](https://github.com/GabrielCostaDeOliveira)|A definir|
