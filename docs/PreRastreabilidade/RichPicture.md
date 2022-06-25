@@ -39,6 +39,17 @@ Um Rich Picture é um artefato utilizado a fim de demonstrar, através de um des
   </figure>
 </center>
 
+
+### 2.4 Gabriel Costa de Oliveira
+
+<center>
+<figure>
+    <figcaption>Figura 3: Rich Picture feito pelo estudante</figcaption>
+      <img width="100%" src="../img/RichPictures/rich_picture_gabriel.png" />
+    <figcaption>Fonte: Próprio autor</figcaption>
+  </figure>
+</center>
+
 ## 3. Referências
 
 > MANK, Andrew; HOWARD, Steve. The Rich Picture: A Tool for Reasoning About Work Context. Oxford, 1998.
@@ -50,4 +61,5 @@ Um Rich Picture é um artefato utilizado a fim de demonstrar, através de um des
 
 |Versão|Data de modificação|Descrição da modificação|Autor(es)|Revisor(es)|
 |-|-|-|-|-|
-|1.0|24/06/2022|Adicionando os rich pictures produzidos pelo grupo|[Ugor Marcilio](https://github.com/ubrando), [Bianca Sofia](https://github.com/biancasofia), [Douglas Monteles](https://github.com/douglasmonteles)|A definir|
+|1.0|24/06/2022|Adicionando os rich pictures produzidos pelo grupo|[Ugor Marcilio](https://github.com/ubrando), [Bianca Sofia](https://github.com/biancasofia), [Douglas Monteles](https://github.com/douglasmonteles)|https://github.com/GabrielCostaDeOliveira|
+|1.1|25/06/2022|Adicionando os rich pictures produzidos pelo grupo|[Gabriel Costa](https://github.com/GabrielCostaDeOliveira)|A definir|
