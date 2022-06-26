@@ -5,7 +5,7 @@
   Após uma discussão sobre os 5w2h's desenvolvidos pelo grupo, o conteúdo do artefato foi sintetizado e está disponível abaixo.
 </p>
 
-## 2. Versões do 5w2h
+## 2. 5w2h
 
 ### What
 <p align="justify">
