@@ -3,6 +3,15 @@ site_name: "2022.1_G3_Bazar"
 repo_name: "2022.1_G3_Bazar"
 repo_url: "https://unbarqdsw2022-1.github.io/2022.1_G3_Bazar/"
 
+markdown_extensions:
+  - pymdownx.arithmatex:
+      generic: true
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+  
 theme:
   name: "material"
   language: "pt"
@@ -22,6 +31,16 @@ nav:
   - Início: index.md
   - Modelagem: site/Modelagem/2.1.1.UMLEstaticos/uml.md
   - Design Sprint: site/Modelagem/2.1.1.UMLEstaticos/uml.md
-
+  - 1.Base:
+    - 1.1. Módulo Projeto Não Orientado a Abordagens Específicas:
+      - Design Sprint: "Base/1.1.DesignSprint.md"
+      - 5W2H: "Base/1.1.5W2H.md"
+      - Mapa Mental: "Base/1.1.MapaMental.md"
+      - Diagrama de Causa-Efeito: "Base/1.1.Diagrama-Causa-Efeito.md"
+      - Custo e Tempo: "Base/1.1.Custo-Tempo.md"
+      - Rich Picture: "Base/1.1.RichPicture.md"
+    - 1.2. Módulo Processos/Metodologias/Abordagens: "Base/1.2.ProcessosMetodologiasAbordagens.md"
+    - 1.3. Iniciativas Extras - Base: "Base/1.3.IniciativasExtras.md"
+    - 1.4. Participações - Base: "Base/1.4.ParticipacoesBase.md"
 plugins:
   - search
