@@ -28,9 +28,7 @@ extra_css:
   - stylesheets/styles.css
 
 nav:
-  - Início: index.md
-  - Modelagem: site/Modelagem/2.1.1.UMLEstaticos/uml.md
-  - Design Sprint: site/Modelagem/2.1.1.UMLEstaticos/uml.md
+  - Início: "index.md"
   - 1.Base:
     - 1.1. Módulo Projeto Não Orientado a Abordagens Específicas:
       - Design Sprint: "Base/1.1.DesignSprint.md"
@@ -44,5 +42,5 @@ nav:
     - 1.2. Módulo Processos/Metodologias/Abordagens: "Base/1.2.ProcessosMetodologiasAbordagens.md"
     - 1.3. Iniciativas Extras - Base: "Base/1.3.IniciativasExtras.md"
     - 1.4. Participações - Base: "Base/1.4.ParticipacoesBase.md"
-plugins:
-  - search
+
+
