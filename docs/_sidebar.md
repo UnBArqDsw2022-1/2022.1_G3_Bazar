@@ -3,12 +3,19 @@
 - [Home]()
 - [Diretrizes](/Diretrizes/Diretrizes.md)
 
-<!-- - **Base**
-  - [1. Desenho de Software (Base)](/Base/1.Base.md)
-    - [1.1. Módulo Projeto Não Orientado a Abordagens Específicas](/Base/1.1.AbordagemNaoEspecifica.md)
+- **Base**
+    -  [1.1. Módulo Projeto Não Orientado a Abordagens Específicas]()
+      - [Design Sprint](/Base/1.1.DesignSprint.md)
+      - [5W2H](/Base/1.1.5W2H.md)
+      - [Mapa Mental](/Base/1.1.MapaMental.md)
+      - [Diagrama de Causa-Efeito](/Base/1.1.Diagrama-Causa-Efeito.md)
+      - [Custo e Tempo](/Base/1.1.Custo-Tempo.md)
+      - [Rich Picture](/Base/1.1.RichPicture.md)
+      - [Léxico](/Base/1.1.Lexico.md)
+      - [Plano de Risco](/Base/1.1.Planos-de-Risco.md)
     - [1.2. Módulo Processos/Metodologias/Abordagens](/Base/1.2.ProcessosMetodologiasAbordagens.md)
     - [1.3. Iniciativas Extras - Base](/Base/1.3.IniciativasExtras.md)
-    - [1.4. Participações - Base](/Base/1.4.ParticipacoesBase.md) -->
+    - [1.4. Participações - Base](/Base/1.4.ParticipacoesBase.md)
 
 - **Modelagem**
   - [2. Desenho de Software (Modelagem)](/Modelagem/2.Modelagem.md)
