@@ -22,7 +22,8 @@ Descreva o seu projeto em linhas gerais.
 Use referências, links, que permitam conhecer um pouco mais sobre o projeto.
 
 ## Screenshots Primeira Entrega <<FOCO: DSW(Base)>>
-Adicione 2 ou mais screenshots do projeto em termos de artefatos da Primeira Entrega.
+![image](https://user-images.githubusercontent.com/51385738/179064971-625c04fe-0d05-4dd6-ac54-bb8e8a142dad.png)
+![image](https://user-images.githubusercontent.com/51385738/179065018-9c7f04bd-774f-4705-85b2-9fc130a850f1.png)
 
 ## Screenshots Segunda Entrega <<FOCO: DSW(Modelagem)>>
 Adicione 2 ou mais screenshots do projeto em termos de artefatos da Segunda Entrega.
