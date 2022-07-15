@@ -1,9 +1,9 @@
-<!-- docs/_sidebar.md -->
+ docs/_sidebar.md 
 
 - [Home]()
 - [Diretrizes](/Diretrizes/Diretrizes.md)
 
-<!-- - **Base**
+- **Base**
     -  [1.1. Módulo Projeto Não Orientado a Abordagens Específicas]()
       - [Design Sprint](/Base/1.1.DesignSprint.md)
       - [5W2H](/Base/1.1.5W2H.md)
@@ -45,6 +45,6 @@
     - [4.3. Iniciativas Extras - Arquitetura & Reutilização de Software](/ArquiteturaReutilizacao/4.3.IniciativasExtras.md)
     - [4.4. Participações - Arquitetura & Reutilização de Software](/ArquiteturaReutilizacao/4.4.ParticipacoesArqReutilizacao.md)
 
-<!-- - **Pré-Rastreabilidade**
+ - **Pré-Rastreabilidade**
   - [1. Rich Pictures](./PreRastreabilidade/RichPicture.md)
-  - [2. Rich Picture Escolhido](./PreRastreabilidade/RichPictureEscolhido.md) -->
+  - [2. Rich Picture Escolhido](./PreRastreabilidade/RichPictureEscolhido.md) 
