@@ -25,6 +25,7 @@
         - [Diagrama de Pacotes]()
         - [Diagrama de Componentes]()
         - [Diagrama de Implantação](/Modelagem/2.1.1.DiagramaDeImplantacao.md)
+        - [Diagrama de Pacotes - Frontend](/Modelagem/2.1.1.DiagramaPacotesFrontend.md)
       - [2.1.2. Notação UML – Diagramas Dinâmicos](/Modelagem/2.1.2.UMLDinamicos.md)
         - [Diagrama de Sequência](/Modelagem/2.1.2.DiagramaDeSequencia.md)
         - [Diagrama de Comunicação](/Modelagem/2.1.2.DiagramaComunicacao)
