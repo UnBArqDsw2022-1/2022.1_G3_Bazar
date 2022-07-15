@@ -23,6 +23,8 @@
       - [2.1.1. Notação UML – Diagramas Estáticos](/Modelagem/2.1.1.UMLEstaticos.md)
         - [Diagrama de Classes](/Modelagem/2.1.1.DiagramaDeClasses.md)
       - [2.1.2. Notação UML – Diagramas Dinâmicos](/Modelagem/2.1.2.UMLDinamicos.md)
+        - [Diagrama de Sequência](/Modelagem/2.1.2.1.DiagramaDeSequencia.md)
+        - [Diagrama de Estados](/Modelagem/2.1.2.DiagramaEstados.md)
       - [2.1.3. Modelagem Ágil](/Modelagem/2.1.3.Agil.md)
     - [2.2. Iniciativas Extras - Modelagem](/Modelagem/2.2.IniciativasExtras.md)
     - [2.3. Participações - Modelagem](/Modelagem/2.3.ParticipacoesModelagem.md)
