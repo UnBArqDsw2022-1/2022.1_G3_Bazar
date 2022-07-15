@@ -22,9 +22,14 @@
     - [2.1. Módulo Projeto Orientado a Abordagens Tradicionais](/Modelagem/2.1.ModelagemTradicional.md)
       - [2.1.1. Notação UML – Diagramas Estáticos](/Modelagem/2.1.1.UMLEstaticos.md)
         - [Diagrama de Classes](/Modelagem/2.1.1.DiagramaDeClasses.md)
+        - [Diagrama de Pacotes]()
+        - [Diagrama de Componentes]()
+        - [Diagrama de Implantação](/Modelagem/2.1.1.DiagramaDeImplantacao.md)
       - [2.1.2. Notação UML – Diagramas Dinâmicos](/Modelagem/2.1.2.UMLDinamicos.md)
-        - [Diagrama de Sequência](/Modelagem/2.1.2.1.DiagramaDeSequencia.md)
+        - [Diagrama de Sequência](/Modelagem/2.1.2.DiagramaDeSequencia.md)
+        - [Diagrama de Comunicação](/Modelagem/2.1.2.DiagramaComunicacao)
         - [Diagrama de Estados](/Modelagem/2.1.2.DiagramaEstados.md)
+        - [Diagrama de Atividades]()
       - [2.1.3. Modelagem Ágil](/Modelagem/2.1.3.Agil.md)
     - [2.2. Iniciativas Extras - Modelagem](/Modelagem/2.2.IniciativasExtras.md)
     - [2.3. Participações - Modelagem](/Modelagem/2.3.ParticipacoesModelagem.md)
@@ -44,6 +49,3 @@
     - [4.3. Iniciativas Extras - Arquitetura & Reutilização de Software](/ArquiteturaReutilizacao/4.3.IniciativasExtras.md)
     - [4.4. Participações - Arquitetura & Reutilização de Software](/ArquiteturaReutilizacao/4.4.ParticipacoesArqReutilizacao.md)
 
-<!-- - **Pré-Rastreabilidade**
-  - [1. Rich Pictures](./PreRastreabilidade/RichPicture.md)
-  - [2. Rich Picture Escolhido](./PreRastreabilidade/RichPictureEscolhido.md) -->
