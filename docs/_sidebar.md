@@ -33,6 +33,7 @@
         - [Diagrama de Atividades]()
       - [2.1.3. Modelagem Ágil](/Modelagem/2.1.3.Agil.md)
     - [2.2. Iniciativas Extras - Modelagem](/Modelagem/2.2.IniciativasExtras.md)
+      - [Modelagem de dados](/Modelagem/2.2.ModelagemDeDados.md)
     - [2.3. Participações - Modelagem](/Modelagem/2.3.ParticipacoesModelagem.md)
 
 - **Padrões de Projeto**
