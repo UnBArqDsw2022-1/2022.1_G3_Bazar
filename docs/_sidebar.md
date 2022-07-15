@@ -25,8 +25,10 @@
         - [Diagrama de Pacotes](/Modelagem/2.1.1.DiagramaPacotes.md)
       - [2.1.2. Notação UML – Diagramas Dinâmicos](/Modelagem/2.1.2.UMLDinamicos.md)
         - [Diagrama de Sequência](/Modelagem/2.1.2.1.DiagramaDeSequencia.md)
+        - [Diagrama de Estados](/Modelagem/2.1.2.DiagramaEstados.md)
       - [2.1.3. Modelagem Ágil](/Modelagem/2.1.3.Agil.md)
     - [2.2. Iniciativas Extras - Modelagem](/Modelagem/2.2.IniciativasExtras.md)
+        - [Modelagem de Banco de Dados](/Modelagem/2.2.ModelagemDeDados.md)
     - [2.3. Participações - Modelagem](/Modelagem/2.3.ParticipacoesModelagem.md) -->
 
 
