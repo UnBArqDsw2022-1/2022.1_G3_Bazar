@@ -1,4 +1,4 @@
-<!-- docs/_sidebar.md -->
+ docs/_sidebar.md 
 
 - [Home]()
 - [Diretrizes](/Diretrizes/Diretrizes.md)
@@ -20,19 +20,32 @@
 - **Modelagem**
   - [2. Desenho de Software (Modelagem)](/Modelagem/2.Modelagem.md)
     - [2.1. Módulo Projeto Orientado a Abordagens Tradicionais](/Modelagem/2.1.ModelagemTradicional.md)
-      - [2.1.1. Notação UML – Diagramas Estáticos](/Modelagem/2.1.1.UMLEstaticos.md)
+      - [2.1.1. Notação UML – Diagramas Estáticos - Notação UML – Diagramas Estáticos](/Modelagem/2.1.1.UMLEstaticos.md)
         - [Diagrama de Classes](/Modelagem/2.1.1.DiagramaDeClasses.md)
+<<<<<<< HEAD
         - [Diagrama de Componentes](/Modelagem/2.1.1.DiagramaDeComponentes.md)
         - [Diagrama de Implantação](/Modelagem/2.1.1.DiagramaDeImplantacao.md)
         - [Diagrama de Pacotes](/Modelagem/2.1.1.DiagramaPacotesFrontend.md)
+=======
+        - [Diagrama de Pacotes](/Modelagem/2.1.1.DiagramaPacotes.md)
+        - [Diagrama de Implantação](/Modelagem/2.1.1.DiagramaDeImplantacao.md)
+        - [Diagrama de Componentes](/Modelagem/2.1.1.DiagramaComponentes.md)
+>>>>>>> fe50b49c6b6066829e459fec5298b4fe8e33b92e
       - [2.1.2. Notação UML – Diagramas Dinâmicos](/Modelagem/2.1.2.UMLDinamicos.md)
         - [Diagrama de Sequência](/Modelagem/2.1.2.DiagramaDeSequencia.md)
-        - [Diagrama de Comunicação](/Modelagem/2.1.2.DiagramaComunicacao)
         - [Diagrama de Estados](/Modelagem/2.1.2.DiagramaEstados.md)
+<<<<<<< HEAD
         - [Diagrama de Atividades](/Modelagem/2.1.2.DiagramaDeAtividades.md)
+=======
+        - [Diagrama de Comunicação](/Modelagem/2.1.2.DiagramaComunicacao.md)
+        - [Diagrama de Atividades](/Modelagem/2.1.2.DiagramaAtividades.md)
+>>>>>>> fe50b49c6b6066829e459fec5298b4fe8e33b92e
       - [2.1.3. Modelagem Ágil](/Modelagem/2.1.3.Agil.md)
+      - [2.1.3v2. Modelagem Ágil](/Modelagem/2.1.3.Backlog.md)
     - [2.2. Iniciativas Extras - Modelagem](/Modelagem/2.2.IniciativasExtras.md)
-    - [2.3. Participações - Modelagem](/Modelagem/2.3.ParticipacoesModelagem.md)
+        - [Modelagem de Banco de Dados](/Modelagem/2.2.ModelagemDeDados.md)
+    - [2.3. Participações - Modelagem](/Modelagem/2.3.ParticipacoesModelagem.md) -->
+
 
 - **Padrões de Projeto**
   - [3. Desenho de Software (Padrões de Projeto)](/PadroesDeProjeto/3.PadroesDeProjeto.md)
@@ -49,3 +62,6 @@
     - [4.3. Iniciativas Extras - Arquitetura & Reutilização de Software](/ArquiteturaReutilizacao/4.3.IniciativasExtras.md)
     - [4.4. Participações - Arquitetura & Reutilização de Software](/ArquiteturaReutilizacao/4.4.ParticipacoesArqReutilizacao.md)
 
+ - **Pré-Rastreabilidade**
+  - [1. Rich Pictures](./PreRastreabilidade/RichPicture.md)
+  - [2. Rich Picture Escolhido](./PreRastreabilidade/RichPictureEscolhido.md) 
