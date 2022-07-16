@@ -28,6 +28,8 @@ Use referências, links, que permitam conhecer um pouco mais sobre o projeto.
 ## Screenshots Segunda Entrega <<FOCO: DSW(Modelagem)>>
 Adicione 2 ou mais screenshots do projeto em termos de artefatos da Segunda Entrega.
 
+OBS: Não especificaram essa seção no prazo (15Julho22) - Profa. Milene
+
 ## Screenshots Terceira Entrega <<FOCO: DSW(Padrões de Projeto)>>
 Adicione 2 ou mais screenshots do projeto em termos de artefatos da Terceira Entrega.
 
