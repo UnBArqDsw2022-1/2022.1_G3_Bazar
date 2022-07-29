@@ -55,3 +55,9 @@
  - **Pré-Rastreabilidade**
   - [1. Rich Pictures](./PreRastreabilidade/RichPicture.md)
   - [2. Rich Picture Escolhido](./PreRastreabilidade/RichPictureEscolhido.md) 
+
+ - **Reuniões**
+  - [26/07](./Base/reuniao2607.md)
+  
+
+
