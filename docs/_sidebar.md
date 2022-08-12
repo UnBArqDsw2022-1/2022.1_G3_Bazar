@@ -46,6 +46,7 @@
     - [3.2. GoFs](/PadroesDeProjeto/3.2.GoFs.md)
       - [3.2.1. Composite](/PadroesDeProjeto/3.2.1.Composite.md)
       - [3.2.2. Adapter](/PadroesDeProjeto/3.2.2.Adapter.md)
+      - [3.2.3. Decorator](/PadroesDeProjeto/3.2.3.Decorator.md)
       - [3.2.4. Criacionais](/PadroesDeProjeto/3.2.4.GoFs-Criacionais.md)
       - [3.2.5. Strategy](/PadroesDeProjeto/3.2.3.Comportamentais.md)
     - [3.3. Modelagem Ágil](/PadroesDeProjeto/3.2.2.Gof_Comportamental.md)
@@ -69,3 +70,4 @@
   
 
 
+  
