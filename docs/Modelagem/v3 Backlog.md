@@ -240,7 +240,7 @@ Para a criação do backlog todos os integrantes do grupo se reunirão e por mei
 | :-: | :-: | :-: | :-: | :-: |
 | 26/06/2022 | 1.0 | Todos | Criação do artefato: Backlog | Todos |
 | 15/07/2022 | 1.1 | [Ailton Aires](https://github.com/ailtonaires) | Criação das tasks para as USs | [Douglas Monteles](https://github.com/douglasmonteles) |
-| 30/07/2022 | 2.0 | [Ailton Aires](https://github.com/ailtonaires) | Criação das tasks para as USs | |
+| 30/07/2022 | 2.0 | [Ailton Aires](https://github.com/ailtonaires) | Criação das tasks para as USs | [Gabriel](https://github.com/GabrielCostaDeOliveira) |
 | 05/08/2022 | 3.0 | [Gabriel](https://github.com/GabrielCostaDeOliveira) [Ailton Aires](https://github.com/ailtonaires)  [Athur](https://github.com/art1505)| Adicionando rastreabilidades e novas US | |
 | 08/08/2022 | 3.1 | [Gabriel](https://github.com/GabrielCostaDeOliveira) [Lais](https://github.com/laispa)  [Douglas Monteles](https://github.com/douglasmonteles) |Correção da rastreabilidade | |
-| 11/08/2022 | 3.2 | [Gabriel](https://github.com/GabrielCostaDeOliveira) | | |
+| 11/08/2022 | 3.2 | [Gabriel](https://github.com/GabrielCostaDeOliveira) | Correção Estrutural| |
