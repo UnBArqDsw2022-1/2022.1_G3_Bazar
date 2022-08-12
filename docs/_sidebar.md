@@ -44,7 +44,8 @@
     - [3.2. Módulo Padrões de Projeto GoFs](/PadroesDeProjeto/3.2.GoFs.md)
       - [3.2.1. Composite](/PadroesDeProjeto/3.2.1.Composite.md)
       - [3.2.2. Adapter](/PadroesDeProjeto/3.2.2.Adapter.md)
-    - [3.3. Modelagem Ágil](/PadroesDeProjeto/3.3.PadroesExtra.md)
+      - [3.2.3. Strategy](/PadroesDeProjeto/)
+    - [3.3. Modelagem Ágil](/PadroesDeProjeto/3.2.2.Gof_Comportamental.md)
     - [3.4. Iniciativas Extras - Padrões de Projeto](/PadroesDeProjeto/3.4.IniciativasExtras.md)
     - [3.5. Participações - Padrões de Projeto](/PadroesDeProjeto/3.5.ParticipacoesPadroes.md)
 
@@ -61,6 +62,7 @@
 
  - **Reuniões**
   - [26/07](./Base/reuniao2607.md)
+  - [06/08]((./Base/reuniao0608.md))
   
 
 
