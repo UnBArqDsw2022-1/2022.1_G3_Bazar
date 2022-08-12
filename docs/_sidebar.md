@@ -42,6 +42,7 @@
     <!-- - [3.1. Módulo Padrões de Projeto GRASPs](/PadroesDeProjeto/3.1.GRASPs.md) -->
       - [3.1.1. GRASP Controlador](/PadroesDeProjeto/3.1.1.GRASPController.md)
       - [3.1.2 GRASP Criador](/PadroesDeProjeto/3.1.1.GRASPCriador.md)   
+      - [3.1.3 GRASP Especialista](/PadroesDeProjeto/3.1.2.Especialista.md)   
     - [3.2. Módulo Padrões de Projeto GoFs](/PadroesDeProjeto/3.2.GoFs.md)
       - [3.2.1. Composite](/PadroesDeProjeto/3.2.1.Composite.md)
       - [3.2.2. Adapter](/PadroesDeProjeto/3.2.2.Adapter.md)
