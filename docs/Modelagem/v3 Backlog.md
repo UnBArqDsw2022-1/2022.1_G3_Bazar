@@ -51,14 +51,14 @@ Para a criação do backlog todos os integrantes do grupo se reunirão e por mei
             <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">US01</td>
             <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle"> Como cliente, eu gostaria de me cadastrar para que meus dados de compra fiquem salvos</td>
             <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">Estruturar o Banco de Dados</td>
-            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">Should</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">Must</td>
         </tr>
         <tr>
             <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle"> brainstorm</td>
             <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">US02</td>
             <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">Como cliente, eu gostaria de cadastrar dados de pagamento para facilitar a compra online.</td>
             <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">Cadastrar cartão, implementar tela de pagamento cadastro dos dados</td>
-            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">Should</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">Could</td>
         </tr>
         <tr>
             <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle" rowspan="2">Edição de dados do usuário</td>
@@ -66,7 +66,7 @@ Para a criação do backlog todos os integrantes do grupo se reunirão e por mei
             <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">US03</td>
             <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">Como cliente, eu gostaria de recuperar a minha senha para não perder minha conta.</td>
             <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">Implementar botão "esqueci minha senha", opcção para colocar email de segurança</td>
-            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">Should</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">Could</td>
         </tr>
         <tr>
             <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">brainstorm</td>
@@ -82,14 +82,14 @@ Para a criação do backlog todos os integrantes do grupo se reunirão e por mei
             <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">US05</td>
             <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">Como cliente, desejo ter acesso ao atendimento de usuário para conseguir informações sobre meu pedido</td>
             <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">Implementar uma tela de SAC, disponibilizar canais de atendimento</td>
-            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">Should</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">Could</td>
         </tr>
         <tr>
             <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">brainstorm</td>
             <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">US06</td>
             <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">Como cliente, desejo falar com os responsáveis pela venda para resolver eventuais problemas</td>
             <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">Implementar e integrar chat entre vendedor e cliente</td>
-            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">Should</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">Could</td>
         </tr>
         <tr>
             <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle"> Feedback do cliente</td>
@@ -97,7 +97,7 @@ Para a criação do backlog todos os integrantes do grupo se reunirão e por mei
             <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">US07</td>
             <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">Como cliente, desejo avaliar a compra efetuada para dar meu feedback ao vendedor.</td>
             <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">Colocar uma aba de avaliação do pedido, criar um sistema em estrelas da avaliação do pedido</td>
-            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">Must</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">Should</td>
         </tr>
         <tr>
             <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle" rowspan="14">Gerenciamento do pedido</td>
@@ -106,28 +106,28 @@ Para a criação do backlog todos os integrantes do grupo se reunirão e por mei
             <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">US08</td>
             <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle"> Como cliente, eu gostaria de ver os produtos disponíveis para que eu possa escolher qual comprar</td>
             <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">Colocar um selo nos produtos disponíveis, filtrar os produtos por itens disponíveis</td>
-            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">Should</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">Must</td>
         </tr>
         <tr>
             <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle" >brainstorm</td>
             <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">US09</td>
             <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle"> como cliente, eu gostaria de adicionar um produto ao meu carrinho para gerenciar a minha compra</td>
              <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">Implementar um carrinho de compras, permitir que remova o item do carrinho, permitir que mova para a lista de desejos</td>
-            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">should</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">Must</td>
         </tr>
         <tr>
             <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle" >brainstorm</td>
             <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">US10</td>
             <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">  Como cliente, gostaria de receber informações de entrega para que eu saiba em que trajeto meu produto se encontra</td>
              <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">Integrar o app com um sistema de rastreio, disponibilizar o código de rastreio</td>
-            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">Should</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">could</td>
         </tr>
         <tr>
             <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle" >brainstorm e storyboard</td>
             <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">US11</td>
             <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">Como cliente, gostaria de receber informações sobre a finalização do meu pedido. </td>
             <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">Enviar uma mensagem de confirmação de entrega do pedido</td>
-            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">should</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">Must</td>
         </tr>
         <tr>
             <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle" >brainstorm</td>
@@ -141,36 +141,36 @@ Para a criação do backlog todos os integrantes do grupo se reunirão e por mei
             <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">US13</td>
             <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">Como cliente, desejo poder visualizar os itens adicionados ao carrinho para confirmar meus pedidos antes de efetuar a compra.</td>
              <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">Implementar uma tela de confirmação do pedido, disponibilizar o valor total da compra</td>
-            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">Should</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">Must</td>
         </tr>
         <tr>
             <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle" >brainstorm</td>
             <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">US14</td>
             <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle"> Como usuário, desejo remover um ou mais itens do carrinho para caso eu desista da compra destes itens.</td>
              <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">Implementar caixa de seleção de itens para serem removidos do carrinho </td>
-            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">should</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">Must</td>
         </tr>
               <tr>
             <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle"> Protótipo </td>
             <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">US23</td>
             <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle"> Como cliente, gostaria de cadastrar um produto na minha lista de desejos para que eu salve os produtos que mais gostei</td>
             <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle"></td>
-            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle"></td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">Could</td>
         </tr>
         <tr>
             <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle"> Protótipo </td>
             <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">US24</td>
             <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle"> Como cliente, gostaria de remover um produto na minha lista de desejos caso eu não tenha mais interesse no produto</td>
             <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle"></td>
-            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle"></td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">Could</td>
         </tr>
         <tr>
             <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle" rowspan = "5">Venda do produto</td>
             <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle" >brainstorm</td>
             <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">US15</td>
-            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle"> Como usuário, desejo remover um ou mais itens do carrinho para caso eu desista da compra destes itens.</td>
-            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">Implementar caixa de seleção de itens para serem removidos do carrinho </td>
-            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">should</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">----</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">---- </td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">----</td>
         </tr>
         <tr>
             <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle" >brainstorm</td>
@@ -207,13 +207,13 @@ Para a criação do backlog todos os integrantes do grupo se reunirão e por mei
             <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">US20</td>
             <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle"> Como vendedor, desejo realizar o cadastro de um produto para venda e disponibilizar na plataforma.</td>
             <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">Permitir inserção de imagens do produto, título e descrição </td>
-            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">Should</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">Must</td>
         </tr>
         <tr>
             <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">Edição do produto</td>
             <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle"> brainstorm</td>
             <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">US21</td>
-            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle"> Como vendedor, desejo tornar indisponível um produto cadastrado para quando não houver estoque do mesmo.</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle"> Como vendedor, desejo tornar indisponível um produto cadastrado para quando não houver estoque.</td>
             <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">Criar um botão pra remover o produto, criar uma query no banco de dados para remover/inativar a venda do produto </td>
             <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">Should</td>
         </tr>
@@ -224,7 +224,7 @@ Para a criação do backlog todos os integrantes do grupo se reunirão e por mei
             <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">US24</td>
             <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle"> Como vendedor, gostaria de cadastrar uma campanha na plataforma</td>
             <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle"></td>
-            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle"></td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">Could</td>
         </tr>
         <tr>
             <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">Edição da campanha</td>
@@ -232,7 +232,7 @@ Para a criação do backlog todos os integrantes do grupo se reunirão e por mei
             <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">US25</td>
             <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle"> Como vendedor, gostaria de editar uma campanha na plataforma</td>
             <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle"></td>
-            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle"></td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">Could</td>
         </tr>
     </tbody>
 <table>
@@ -248,3 +248,5 @@ Para a criação do backlog todos os integrantes do grupo se reunirão e por mei
 | 26/06/2022 | 1.0 | Todos | Criação do artefato: Backlog | Todos |
 | 15/07/2022 | 1.1 | [Ailton Aires](https://github.com/ailtonaires) | Criação das tasks para as USs | [Douglas Monteles](https://github.com/douglasmonteles) |
 | 30/07/2022 | 2.0 | [Ailton Aires](https://github.com/ailtonaires) | Criação das tasks para as USs | |
+| 10/08/2022 | 3.0 | [Gabriel](https://github.com/GabrielCostaDeOliveira) [Ailton Aires](https://github.com/ailtonaires)  [Athur](https://github.com/art1505)| Adicionando rastreabilidades e novas US | |
+| 11/08/2022 | 3.1 | [Gabriel](https://github.com/GabrielCostaDeOliveira) [Lais](https://github.com/laispa)  [Douglas Monteles](https://github.com/douglasmonteles) |Correção da rastreabilidade | |
