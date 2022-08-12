@@ -21,4 +21,4 @@ Presentes na planning do dia 6/08 : Arthur, Douglas, Gabriel, Eduardo, Ugor, Bia
 
 | Data | Versão | Descrição | Autor(es)|Revisor(es)|
 |:----:|:------:|:---------:|:--------:|:--------:|
-| 25/06/22 | 1.0 | Criação do Documento | [Laís Portela](https://github.com/laispa) |---- |
+| 25/06/22 | 1.0 | Criação do Documento | [Laís Portela](https://github.com/laispa) |[Iago Oliveira](https://github.com/iagoomr) |
