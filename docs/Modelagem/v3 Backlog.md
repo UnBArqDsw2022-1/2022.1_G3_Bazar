@@ -100,7 +100,7 @@ Para a criação do backlog todos os integrantes do grupo se reunirão e por mei
             <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">Should</td>
         </tr>
         <tr>
-            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle" rowspan="14">Gerenciamento do pedido</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle" rowspan="13">Gerenciamento do pedido</td>
             <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle" rowspan="9">Compra do produto</td>
             <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle"> brainstorm e storyboard</td>
             <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">US08</td>
@@ -152,27 +152,20 @@ Para a criação do backlog todos os integrantes do grupo se reunirão e por mei
         </tr>
               <tr>
             <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle"> Protótipo </td>
-            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">US23</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">US27</td>
             <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle"> Como cliente, gostaria de cadastrar um produto na minha lista de desejos para que eu salve os produtos que mais gostei</td>
             <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle"></td>
             <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">Could</td>
         </tr>
         <tr>
             <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle"> Protótipo </td>
-            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">US24</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">US28</td>
             <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle"> Como cliente, gostaria de remover um produto na minha lista de desejos caso eu não tenha mais interesse no produto</td>
             <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle"></td>
             <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">Could</td>
         </tr>
         <tr>
-            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle" rowspan = "5">Venda do produto</td>
-            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle" >brainstorm</td>
-            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">US15</td>
-            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">----</td>
-            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">---- </td>
-            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">----</td>
-        </tr>
-        <tr>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle" rowspan = "4">Venda do produto</td>
             <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle" >brainstorm</td>
             <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">US16</td>
             <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle"> Como vendedor, desejo ter acesso ao pagamento referente ao meu produto vendido.</td>
@@ -248,5 +241,6 @@ Para a criação do backlog todos os integrantes do grupo se reunirão e por mei
 | 26/06/2022 | 1.0 | Todos | Criação do artefato: Backlog | Todos |
 | 15/07/2022 | 1.1 | [Ailton Aires](https://github.com/ailtonaires) | Criação das tasks para as USs | [Douglas Monteles](https://github.com/douglasmonteles) |
 | 30/07/2022 | 2.0 | [Ailton Aires](https://github.com/ailtonaires) | Criação das tasks para as USs | |
-| 10/08/2022 | 3.0 | [Gabriel](https://github.com/GabrielCostaDeOliveira) [Ailton Aires](https://github.com/ailtonaires)  [Athur](https://github.com/art1505)| Adicionando rastreabilidades e novas US | |
-| 11/08/2022 | 3.1 | [Gabriel](https://github.com/GabrielCostaDeOliveira) [Lais](https://github.com/laispa)  [Douglas Monteles](https://github.com/douglasmonteles) |Correção da rastreabilidade | |
+| 05/08/2022 | 3.0 | [Gabriel](https://github.com/GabrielCostaDeOliveira) [Ailton Aires](https://github.com/ailtonaires)  [Athur](https://github.com/art1505)| Adicionando rastreabilidades e novas US | |
+| 08/08/2022 | 3.1 | [Gabriel](https://github.com/GabrielCostaDeOliveira) [Lais](https://github.com/laispa)  [Douglas Monteles](https://github.com/douglasmonteles) |Correção da rastreabilidade | |
+| 11/08/2022 | 3.2 | [Gabriel](https://github.com/GabrielCostaDeOliveira) | | |
