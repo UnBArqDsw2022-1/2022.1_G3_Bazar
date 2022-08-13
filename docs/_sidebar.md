@@ -31,7 +31,7 @@
         - [Diagrama de Comunicação](/Modelagem/2.1.2.DiagramaComunicacao.md)
         - [Diagrama de Atividades](/Modelagem/2.1.2.DiagramaAtividades.md)
       - [2.1.3. Modelagem Ágil](/Modelagem/2.1.3.Agil.md)
-      - [2.1.3 v2. Modelagem Ágil](/Modelagem/2.1.3.Backlog.md)
+      - [Backlog](/Modelagem/2.1.3.Backlog.md)
     - [2.2. Iniciativas Extras - Modelagem](/Modelagem/2.2.IniciativasExtras.md)
         - [Modelagem de Banco de Dados](/Modelagem/2.2.ModelagemDeDados.md)
     - [2.3. Participações - Modelagem](/Modelagem/2.3.ParticipacoesModelagem.md)
@@ -39,9 +39,17 @@
 
 - **Padrões de Projeto**
   - [3. Desenho de Software (Padrões de Projeto)](/PadroesDeProjeto/3.PadroesDeProjeto.md)
-    - [3.1. Módulo Padrões de Projeto GRASPs](/PadroesDeProjeto/3.1.GRASPs.md)
-    - [3.2. Módulo Padrões de Projeto GoFs](/PadroesDeProjeto/3.2.GoFs.md)
-    - [3.3. Modelagem Ágil](/PadroesDeProjeto/3.3.PadroesExtra.md)
+    - [3.1. GRASPs](/PadroesDeProjeto/3.1.GRASPs.md)
+      - [3.1.1 Controlador](/PadroesDeProjeto/3.1.1.GRASPController.md)
+      - [3.1.2 Criador](/PadroesDeProjeto/3.1.1.GRASPCriador.md)   
+      - [3.1.3 Especialista](/PadroesDeProjeto/3.1.2.Especialista.md)   
+    - [3.2. GoFs](/PadroesDeProjeto/3.2.GoFs.md)
+      - [3.2.1. Composite](/PadroesDeProjeto/3.2.1.Composite.md)
+      - [3.2.2. Adapter](/PadroesDeProjeto/3.2.2.Adapter.md)
+      - [3.2.3. Decorator](/PadroesDeProjeto/3.2.3.Decorator.md)
+      - [3.2.4. Criacionais](/PadroesDeProjeto/3.2.4.GoFs-Criacionais.md)
+      - [3.2.5. Comportamentais](/PadroesDeProjeto/3.2.3.Comportamentais.md)
+    - [3.3. Modelagem Ágil](/PadroesDeProjeto/3.2.2.Gof_Comportamental.md)
     - [3.4. Iniciativas Extras - Padrões de Projeto](/PadroesDeProjeto/3.4.IniciativasExtras.md)
     - [3.5. Participações - Padrões de Projeto](/PadroesDeProjeto/3.5.ParticipacoesPadroes.md)
 
@@ -58,6 +66,9 @@
 
  - **Reuniões**
   - [26/07](./Base/reuniao2607.md)
+  - [30/07](./Base/reuniao3007.md)
+  - [06/08](./Base/reuniao0608.md)
   
 
 
+  
