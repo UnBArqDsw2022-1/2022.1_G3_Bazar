@@ -11,7 +11,7 @@ Ficou decidido que a Laís e o Iago irão tentar revisar entre si o papel de Scr
 
 Também ficou acordado que nosso idioma padrão em gráficos, diagramas e no aplicativo será o português, já que grande parte já utilizava essa linguagem.
 
-Foi acordado também que temos que criar issues para documentar melhor o que estamos fazendo e que as pessoas deverão fazer fechar após o término. Houve essa necessidade pois não conseguimos saber o que cada membro estava fazendo. 
+Foi acordado também que temos que criar issues para documentar melhor o que estamos fazendo e que as pessoas deverão fechar após o término. Houve essa necessidade pois não conseguimos saber o que cada membro estava fazendo. 
 
 
 Presentes na planning do dia 6/08 : Arthur, Douglas, Gabriel, Eduardo, Ugor, Bianca e Laís.

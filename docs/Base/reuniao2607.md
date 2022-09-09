@@ -17,4 +17,4 @@ Após uma conversa e analisando a disponibilidade dos integrantes, foi decidido 
 
 | Data | Versão | Descrição | Autor(es)|Revisor(es)|
 |:----:|:------:|:---------:|:--------:|:--------:|
-| 25/06/22 | 1.0 | Criação do Documento | [Iago Oliveira](https://github.com/iagoomr) |---- |
+| 26/07/22 | 1.0 | Criação do Documento | [Iago Oliveira](https://github.com/iagoomr) |---- |
