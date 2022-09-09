@@ -69,6 +69,8 @@
   - [26/07](./Base/reuniao2607.md)
   - [30/07](./Base/reuniao3007.md)
   - [06/08](./Base/reuniao0608.md)
+  - [20/08](./Base/reuniao2008.md)
+  - [26/08](./Base/reuniao2608.md)
   
 
 
