@@ -30,7 +30,10 @@
 
 
 ## Screenshots Terceira Entrega <<FOCO: DSW(Padrões de Projeto)>>
-Adicione 2 ou mais screenshots do projeto em termos de artefatos da Terceira Entrega.
+![image](https://user-images.githubusercontent.com/51385738/184460649-ab853f14-c3af-423f-9bb8-bc75784ce0ae.png)
+![image](https://user-images.githubusercontent.com/51385738/184460700-c9e60083-26a2-4f39-8ac9-cd091fe458fa.png)
+
+
 
 ## Screenshots Quarta Entrega (FINAL) <<FOCOS: Arquitetura & Reutilização de Software & PROJETO FINAL>>
 Adicione 2 ou mais screenshots do projeto em termos de interface e/ou funcionamento.

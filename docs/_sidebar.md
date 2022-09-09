@@ -52,6 +52,7 @@
     - [3.3. Modelagem Ágil](/PadroesDeProjeto/3.2.2.Gof_Comportamental.md)
     - [3.4. Iniciativas Extras - Padrões de Projeto](/PadroesDeProjeto/3.4.IniciativasExtras.md)
     - [3.5. Participações - Padrões de Projeto](/PadroesDeProjeto/3.5.ParticipacoesPadroes.md)
+    - [3.6. Emergentes](/PadroesDeProjeto/3.6.Emergentes.md)
 
 - **Arquitetura de Software & Reutilização**
   - [4. Desenho de Software (Arquitetura & Reutilização de Software)](/ArquiteturaReutilizacao/4.ArquiteturaReutilizacao.md)
@@ -66,6 +67,7 @@
 
  - **Reuniões**
   - [26/07](./Base/reuniao2607.md)
+  - [30/07](./Base/reuniao3007.md)
   - [06/08](./Base/reuniao0608.md)
   
 
