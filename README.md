@@ -36,7 +36,11 @@
 
 
 ## Screenshots Quarta Entrega (FINAL) <<FOCOS: Arquitetura & Reutilização de Software & PROJETO FINAL>>
-Adicione 2 ou mais screenshots do projeto em termos de interface e/ou funcionamento.
+![image](https://user-images.githubusercontent.com/54580766/189464552-3e647998-d74b-4221-bd4f-e47d6e93ffb3.png)
+![image](https://user-images.githubusercontent.com/54580766/189464569-3c262179-baee-4028-86cd-02a293fac5fc.png)
+![image](https://user-images.githubusercontent.com/54580766/189464585-1d605fe0-6138-409b-9849-ba6ba652cba1.png)
+![image](https://user-images.githubusercontent.com/54580766/189464669-93758ab9-315a-49b0-840a-df4262b35e7d.png)
+
 
 ## Descritivo dos Principais Aspectos Técnicos 
 **Principal(is) Metodologia(s) Adotada(s)**: xxxxxx<br>
