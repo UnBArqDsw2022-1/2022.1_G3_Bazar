@@ -1,4 +1,4 @@
-## Reunião realizada no dia 06/08
+## Reunião realizada no dia 30/07
 
 
 ### Tópicos levantados na reunião: <br>
@@ -10,4 +10,4 @@ Também foi definido a quantidade de Exemplos (modelagem e código) de cada padr
 
 | Data | Versão | Descrição | Autor(es)|Revisor(es)|
 |:----:|:------:|:---------:|:--------:|:--------:|
-| 25/06/22 | 1.0 | Criação do Documento | [Iago Oliveira](https://github.com/iagoomr) |---- |
+| 01/08 | 1.0 | Criação do Documento | [Iago Oliveira](https://github.com/iagoomr) |---- |
