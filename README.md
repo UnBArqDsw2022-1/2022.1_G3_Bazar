@@ -43,15 +43,15 @@
 
 
 ## Descritivo dos Principais Aspectos Técnicos 
-**Principal(is) Metodologia(s) Adotada(s)**: xxxxxx<br>
-**Principais Linguagens Utilizadas e/ou Pretendidas**: xxxxxx<br>
-**Principais Tecnologias Utilizadas e/ou Pretendidas**: xxxxxx<br>
-**Principal(is) Estilo(s) Arquitetural(is) Adotado(s)**: xxxxxx<br>
+**Principal(is) Metodologia(s) Adotada(s)**: <br>
+**Principais Linguagens Utilizadas e/ou Pretendidas**:Java,Typescript <br>
+**Principais Tecnologias Utilizadas e/ou Pretendidas**: Spring Boot, Angular<br>
+**Principal(is) Estilo(s) Arquitetural(is) Adotado(s)**: <br>
 
 ## O Projeto está rodando?
-( ) SIM
-(X) NÃO
-Se SIM, insira um manual (ou um script) para auxiliar ainda mais os interessados em consultar o projeto.
+(X) SIM
+( ) NÃO
+
 
 ## Informações Complementares 
 Quaisquer outras informações sobre seu projeto podem ser descritas nessa seção.
