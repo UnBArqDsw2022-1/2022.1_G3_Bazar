@@ -1,0 +1,1291 @@
+
+<!doctype html>
+<html lang="pt" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      <link rel="icon" href="../../assets/favicon.svg">
+      <meta name="generator" content="mkdocs-1.4.1, mkdocs-material-8.5.7">
+    
+    
+      
+        <title>4.3. Iniciativas Extras - Arquitetura & Reutilização de Software - 2022.1_G3_Bazar</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.20d9efc8.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.cbb835fc.min.css">
+        
+          
+          
+          <meta name="theme-color" content="">
+        
+      
+      
+
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,700,700i%7Csans-serif:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Montserrat";--md-code-font:"sans-serif"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/styles.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="#fff" data-md-color-accent="#0b4d9b">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#43-iniciativas-extras-arquitetura-reutilizacao-de-software" class="md-skip">
+          Ir para o conteúdo
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabeçalho">
+    <a href="../.." title="2022.1_G3_Bazar" class="md-header__button md-logo" aria-label="2022.1_G3_Bazar" data-md-component="logo">
+      
+  <img src="../../assets/favicon.svg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            2022.1_G3_Bazar
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              4.3. Iniciativas Extras - Arquitetura & Reutilização de Software
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Buscar" placeholder="Buscar" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Pesquisar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpar" aria-label="Limpar" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando a pesquisa
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://unbarqdsw2022-1.github.io/2022.1_G3_Bazar/" title="Ir ao repositório" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    2022.1_G3_Bazar
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navegação" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="2022.1_G3_Bazar" class="md-nav__button md-logo" aria-label="2022.1_G3_Bazar" data-md-component="logo">
+      
+  <img src="../../assets/favicon.svg" alt="logo">
+
+    </a>
+    2022.1_G3_Bazar
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://unbarqdsw2022-1.github.io/2022.1_G3_Bazar/" title="Ir ao repositório" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    2022.1_G3_Bazar
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        Início
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2">
+          1.Base
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="1.Base" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          1.Base
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_1" type="checkbox" id="__nav_2_1" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_1">
+          1.1. Módulo Projeto Não Orientado a Abordagens Específicas
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="1.1. Módulo Projeto Não Orientado a Abordagens Específicas" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_1">
+          <span class="md-nav__icon md-icon"></span>
+          1.1. Módulo Projeto Não Orientado a Abordagens Específicas
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Base/1.1.DesignSprint/" class="md-nav__link">
+        Design Sprint
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Base/1.1.5W2H/" class="md-nav__link">
+        5W2H
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Base/1.1.MapaMental/" class="md-nav__link">
+        Mapa Mental
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Base/1.1.Diagrama-Causa-Efeito/" class="md-nav__link">
+        Diagrama de Causa-Efeito
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Base/1.1.Custo-Tempo/" class="md-nav__link">
+        Custo e Tempo
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Base/1.1.RichPicture/" class="md-nav__link">
+        Rich Picture
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Base/1.1.Lexico/" class="md-nav__link">
+        Léxico
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Base/1.1.Planos-de-Risco/" class="md-nav__link">
+        Plano de Risco
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Base/1.2.ProcessosMetodologiasAbordagens/" class="md-nav__link">
+        1.2. Módulo Processos/Metodologias/Abordagens
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Base/1.3.IniciativasExtras/" class="md-nav__link">
+        1.3. Iniciativas Extras - Base
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Base/1.4.ParticipacoesBase/" class="md-nav__link">
+        1.4. Participações - Base
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3">
+          2.Modelagem
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="2.Modelagem" data-md-level="1">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          2.Modelagem
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_1" type="checkbox" id="__nav_3_1" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_1">
+          2.1.1.Notação UML – Diagramas Estáticos
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="2.1.1.Notação UML – Diagramas Estáticos" data-md-level="2">
+        <label class="md-nav__title" for="__nav_3_1">
+          <span class="md-nav__icon md-icon"></span>
+          2.1.1.Notação UML – Diagramas Estáticos
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Modelagem/2.1.1.DiagramaDeClasses/" class="md-nav__link">
+        Diagrama de Classes
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Modelagem/2.1.1.DiagramaComponentes/" class="md-nav__link">
+        Diagrama de Componentes
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Modelagem/2.1.1.DiagramaDeImplantacao/" class="md-nav__link">
+        Diagrama de Implantação
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Modelagem/2.1.1.DiagramaPacotes/" class="md-nav__link">
+        Diagrama de Pacotes
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_2" type="checkbox" id="__nav_3_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_2">
+          2.1.2. Notação UML – Diagramas Dinâmicos
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="2.1.2. Notação UML – Diagramas Dinâmicos" data-md-level="2">
+        <label class="md-nav__title" for="__nav_3_2">
+          <span class="md-nav__icon md-icon"></span>
+          2.1.2. Notação UML – Diagramas Dinâmicos
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Modelagem/2.1.2.DiagramaDeSequencia/" class="md-nav__link">
+        Diagrama de Sequência
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Modelagem/2.1.2.DiagramaEstados/" class="md-nav__link">
+        Diagrama de Estados
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Modelagem/2.1.2.DiagramaAtividades/" class="md-nav__link">
+        Diagrama de Atividades
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_3" type="checkbox" id="__nav_3_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_3">
+          2.1.3 Modelagem Ágil
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="2.1.3 Modelagem Ágil" data-md-level="2">
+        <label class="md-nav__title" for="__nav_3_3">
+          <span class="md-nav__icon md-icon"></span>
+          2.1.3 Modelagem Ágil
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Modelagem/2.1.3.Backlog/" class="md-nav__link">
+        Product Backlog
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Modelagem/2.2.IniciativasExtras/" class="md-nav__link">
+        2.2. Iniciativas Extras - Modelagem
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Modelagem/2.3.ParticipacoesModelagem/" class="md-nav__link">
+        2.3. Participações - Modelagem
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#431-casos-de-teste" class="md-nav__link">
+    4.3.1. Casos de teste
+  </a>
+  
+    <nav class="md-nav" aria-label="4.3.1. Casos de teste">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#introducao" class="md-nav__link">
+    Introdução
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#metodologia" class="md-nav__link">
+    Metodologia
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#casos-de-teste-webazar" class="md-nav__link">
+    Casos de teste WEBazar
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#432-github-actions" class="md-nav__link">
+    4.3.2. GitHub Actions
+  </a>
+  
+    <nav class="md-nav" aria-label="4.3.2. GitHub Actions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#introducao_1" class="md-nav__link">
+    Introdução
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#metodologia_1" class="md-nav__link">
+    Metodologia
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#resultado" class="md-nav__link">
+    Resultado
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#433-documentacao-da-api-swagger" class="md-nav__link">
+    4.3.3. Documentação da API (Swagger)
+  </a>
+  
+    <nav class="md-nav" aria-label="4.3.3. Documentação da API (Swagger)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#introducao_2" class="md-nav__link">
+    Introdução
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#metodologia_2" class="md-nav__link">
+    Metodologia
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#resultado_1" class="md-nav__link">
+    Resultado
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4314-referencias" class="md-nav__link">
+    4.3.1.4. Referências
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4315-versionamento" class="md-nav__link">
+    4.3.1.5. Versionamento
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#434-post-mortem" class="md-nav__link">
+    4.3.4. Post Mortem
+  </a>
+  
+    <nav class="md-nav" aria-label="4.3.4. Post Mortem">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#introducao_3" class="md-nav__link">
+    Introdução
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#metodologia_3" class="md-nav__link">
+    Metodologia
+  </a>
+  
+    <nav class="md-nav" aria-label="Metodologia">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ailton" class="md-nav__link">
+    Ailton
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#kevin" class="md-nav__link">
+    Kevin
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lais" class="md-nav__link">
+    Laís
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#iago" class="md-nav__link">
+    Iago
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ugor" class="md-nav__link">
+    Ugor
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bianca" class="md-nav__link">
+    Bianca
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#arthur" class="md-nav__link">
+    Arthur
+  </a>
+  
+    <nav class="md-nav" aria-label="Arthur">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#douglas" class="md-nav__link">
+    Douglas
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#eduardo" class="md-nav__link">
+    Eduardo
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="43-iniciativas-extras-arquitetura-reutilizacao-de-software">4.3. Iniciativas Extras - Arquitetura &amp; Reutilização de Software</h1>
+<h2 id="431-casos-de-teste">4.3.1. Casos de teste</h2>
+<h3 id="introducao">Introdução</h3>
+<p>O documento de casos de teste detalha o conjunto de condições que são usadas para testar o sistema. Sua elaboração ajuda a identificar possíveis falhas e garantir que os requisitos estão sendo cumpridos.</p>
+<h3 id="metodologia">Metodologia</h3>
+<p>A elaboração dos casos de testes devem objetivar a identificação dos erros que eventualmente existam no sistema (Demoiselle). 
+No caso do aplicativo WEBazar, foi feita somente a descrição dos testes com a prioridade "Must", definidas no backlog feito anteriormente pela equipe de desenvolvimento.
+Os casos de teste devem conter: 
+- Identificador
+- Cenário
+- Caso de teste 
+- Pré-condição
+- Etapas
+- Dados para teste (se precisar)
+- Resultado esperado
+- Resultado</p>
+<h3 id="casos-de-teste-webazar">Casos de teste WEBazar</h3>
+<p>Documento de referência: <a href="../../Modelagem/2.1.3.Backlog/">Backlog</a></p>
+<table>
+<thead>
+<tr>
+<th>Id</th>
+<th>Cenário</th>
+<th>Caso de teste</th>
+<th>Pré-condição</th>
+<th>Etapas</th>
+<th>Dados para o teste</th>
+<th>Resultado esperado</th>
+<th>Resultado</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>01</td>
+<td>Verificar se o cadastro no aplicativo, como cliente, está funcionando</td>
+<td>Preencher os dados para cadastro no aplicativo</td>
+<td>-</td>
+<td><table><tr><td>1- Entre na home do aplicativo</td></tr><tr><td>2- Clique em cadastro</td></tr><tr><td>3- Preencha os campos com seus dados</td></tr><tr><td>4- Clique em cadastrar</td></tr></table></td>
+<td>-</td>
+<td>Conseguir concluir o cadastro no aplicativo e o usuário aparecer no banco de dados</td>
+<td></td>
+</tr>
+<tr>
+<td>02</td>
+<td>Verificar se os produtos estão sendo mostrados</td>
+<td>Ver lista de produtos e clicar em um</td>
+<td>-</td>
+<td><table><tr><td>1- Entre na home do aplicativo</td></tr><tr><td>2- Clique em algum produto </td></tr></table></td>
+<td>-</td>
+<td>Conseguir visualizar os detalhes de um produto</td>
+<td></td>
+</tr>
+<tr>
+<td>03</td>
+<td>Verificar se os produtos estão sendo adicionados ao carrinho</td>
+<td>Adicionar um produto ao carrinho e visualizá-lo</td>
+<td>Não ter nenhum item adicionado ao carrinho no início do teste</td>
+<td><table><tr><td>1- Entre na lista de produtos no aplicativo</td></tr><tr><td>2- Clique em algum produto </td></tr><tr><td>3- Adicione o produto ao carrinho</td></tr></table></td>
+<td>-</td>
+<td>Conseguir visualizar o produto no carrinho e ter a opção de remover o produto do carrinho</td>
+<td></td>
+</tr>
+<tr>
+<td>04</td>
+<td>Verificar se existe uma confirmação de pagamento com os itens adicionados ao carrinho</td>
+<td>Confirmar dados dos itens adicionados ao carrinho antes do pagamento</td>
+<td>Ter pelo menos um produto adicionado ao carrinho</td>
+<td><table><tr><td>1- Entre na página do carrinho no aplicativo</td></tr><tr><td>2- Clique em pagar </td></tr></table></td>
+<td>login válido</td>
+<td>Conseguir visualizar uma tela de confirmação de pagamento com os produtos adicionados ao carrinho</td>
+<td></td>
+</tr>
+<tr>
+<td>05</td>
+<td>Verificiar se o cadastro como vendedor está funcionando</td>
+<td>Preencher os dados para cadastro no aplicativo</td>
+<td>-</td>
+<td><table><tr><td>1- Entre na home do aplicativo</td></tr><tr><td>2- Clique em cadastro como vendedor</td></tr><tr><td>3- Preencha os campos com seus dados</td></tr><tr><td>4- Clique em cadastrar</td></tr></table></td>
+<td>-</td>
+<td>Conseguir concluir o cadastro no aplicativo e o usuário aparecer no banco de dados</td>
+<td></td>
+</tr>
+<tr>
+<td>06</td>
+<td>Verificar se o cadastro de itens para venda está funcionando</td>
+<td>Cadastrar um novo produto para venda</td>
+<td>-</td>
+<td><table><tr><td>1- Entre na página de produtos no aplicativo</td></tr><tr><td>2- Clique em adicionar </td></tr><tr><td>3- Preencha os campos </td></tr><tr><td>4- Clique em confirmar </td></tr></table></td>
+<td>login como vendedor válido</td>
+<td>Conseguir concluir o cadastro de produto no aplicativo e ele aparecer no banco de dados e na lista de produtos do aplicativo</td>
+<td></td>
+</tr>
+<tr>
+<td>07</td>
+<td>Verificar se o pedido foi finalizado e o usuário recebeu email com os dados da compra</td>
+<td>Finalizar a compra de um produto</td>
+<td>-</td>
+<td><table><tr><td>1- Entre no carrinho de compras</td></tr><tr><td>2- Clique em confirmar pagamento </td></tr><tr><td>3- Confirme os dados e o pagamento </td></tr><tr><td>4- Verifique se recebeu um email com dados da compra</td></tr></table></td>
+<td>login válido</td>
+<td>Conseguir concluir a compra de um produto e receber os dados no email</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="432-github-actions">4.3.2. GitHub Actions</h2>
+<h3 id="introducao_1">Introdução</h3>
+<p>Segundo a página oficial do Github, a proposta do Github Actions é Automatizar, personalizar e executar seus fluxos de trabalho de desenvolvimento do software diretamente no seu repositório com o GitHub Actions. Você pode descobrir, criar e compartilhar ações para realizar qualquer trabalho que desejar, incluindo CI/CD, bem como combinar ações em um fluxo de trabalho completamente personalizado [1].</p>
+<h3 id="metodologia_1">Metodologia</h3>
+<p>GitHub oferece fluxos de trabalho iniciantes para uma série de linguagens e ferramentas. Ao configurar os fluxos de trabalho no repositório, GitHub analisa o código no seu repositório e recomenda fluxos de trabalho baseados na linguagem e na estrutura do seu repositório. Por exemplo, se você usa o Node.js, o GitHub vai sugerir um arquivo de fluxo de trabalho inicial que instale os pacotes do Node.js e execute os testes. Você pode usar a pesquisa e o filtro para encontrar fluxos de trabalho iniciais relevantes [1].</p>
+<p>O GitHub fornece fluxos de trabalho iniciais prontos para uso para as seguintes categorias de alto nível:</p>
+<ul>
+<li>Implantação (CD);</li>
+<li>CI (integração contínua);</li>
+<li>Automação. </li>
+</ul>
+<p>Os fluxos de trabalho iniciais de automação oferecem soluções para automatizar os fluxos de trabalho, como a triagem de solicitações de pull e a aplicação de um rótulo com base nos caminhos modificados na solicitação de pull ou a saudação de usuários que estão colaborando pela primeira vez no repositório.
+Você também pode criar seu próprio fluxo de trabalho inicial para compartilhar com sua organização. Estes fluxos de trabalho iniciais aparecerão junto com os fluxos de trabalho iniciais fornecidos por GitHub [1].</p>
+<h3 id="resultado">Resultado</h3>
+<figure>
+  <figcaption style="text-align: center !important">
+    Actions do Frontend <br/>
+    <a href="https://github.com/UnBArqDsw2022-1/2022.1_G3_Bazar_Frontend/blob/main/.github/workflows/main.yml" target="_blank">Arquivo.yml</a>
+  </figcaption>
+
+  ![Actions do frontend](https://user-images.githubusercontent.com/54580766/189337244-9b3f82d0-88bb-4cda-ab64-28610f71d9c1.png)
+
+  <figcaption style="text-align: center !important">
+    Fonte: Próprio autor<br>
+  </figcaption>
+</figure>
+
+<p><br/></p>
+<figure>
+  <figcaption style="text-align: center !important">
+    Figura 2: Actions do Backend <br/>
+    <a href="https://github.com/UnBArqDsw2022-1/2022.1_G3_Bazar_Backend/blob/main/.github/workflows/main.yml" target="_blank">Arquivo.yml</a>
+  </figcaption>
+
+  ![Actions do backend](https://user-images.githubusercontent.com/54580766/189338331-585259bc-e0fc-4ab0-9e51-b4fad720a0b8.png)
+
+  <figcaption style="text-align: center !important">
+    Fonte: Próprio autor<br>
+  </figcaption>
+</figure>
+
+<h2 id="433-documentacao-da-api-swagger">4.3.3. Documentação da API (Swagger)</h2>
+<h3 id="introducao_2">Introdução</h3>
+<p>O Swagger elimina o trabalho manual da documentação da API, com uma variedade de soluções para gerar, visualizar e manter os documentos da API [2].</p>
+<h3 id="metodologia_2">Metodologia</h3>
+<p>A documentação pode ser gerada automaticamente a partir de uma definição de API. Mas e se sua API existente não tiver uma definição? Oferecemos o Swagger Core de código aberto para gerar as definições OpenAPI a partir do código de APIs (Java) existente. Se você quiser acelerar esse processo, você e sua equipe também podem experimentar o Swagger Inspector para gerar automaticamente o arquivo OpenAPI para qualquer ponto final [2].</p>
+<h3 id="resultado_1">Resultado</h3>
+<figure>
+  <figcaption style="text-align: center !important">
+    Figura 3: Página da Documentação da API <br/>
+    <a href="https://app-bazar-backend.herokuapp.com/swagger-ui.html#" target="_blank">Acesse a documentação aqui</a>
+  </figcaption>
+
+  ![Página da documentação da API](https://user-images.githubusercontent.com/54580766/189339612-f574dc7f-71a4-435b-9c93-4905d01a13d7.png)
+
+  <figcaption style="text-align: center !important">
+    Fonte: Próprio autor<br>
+  </figcaption>
+</figure>
+
+<h3 id="4314-referencias">4.3.1.4. Referências</h3>
+<ul>
+<li>https://www.softwaretestingmaterial.com/test-case-template-with-explanation/</li>
+<li>http://demoiselle.sourceforge.net/process/ds/1.2.3-BETA1/ProcessoDemoisellePlugin/workproducts/casoDeTeste_24F453B9.html#:~:text=O%20caso%20de%20teste%20%C3%A9,requisitos%20est%C3%A3o%20sendo%20plenamente%20atendidos.</li>
+<li>[1] https://docs.github.com/pt/actions/using-workflows/using-starter-workflows</li>
+<li>[2] https://swagger.io/solutions/api-documentation/</li>
+</ul>
+<h3 id="4315-versionamento">4.3.1.5. Versionamento</h3>
+<table>
+<thead>
+<tr>
+<th align="center">Data</th>
+<th align="center">Versão</th>
+<th align="center">Descrição</th>
+<th align="center">Autor(es)</th>
+<th align="center">Revisor(es)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">08/09/22</td>
+<td align="center">1.0</td>
+<td align="center">Criação do Documento e adição de casos de teste</td>
+<td align="center"><a href="https://github.com/biancasofia">Bianca</a>, <a href="htts://github.com/ubrando">Ugor</a>, <a href="https://github.com/DouglasMonteles">Douglas</a>, <a href="https://github.com/k3vin-batista">Kevin</a>, <a href="https://github.com/ailtonaires">Ailton</a>, <a href="https://github.com/art1505">Arthur</a>, <a href="https://github.com/GabrielCostaDeOliveira">Gabriel</a>, <a href="https://github.com/iagoomr">Iago</a>, <a href="https://github.com/laispa">Laís</a> e <a href="https://github.com/EduardoGurgel">Eduardo</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">08/09/22</td>
+<td align="center">1.1</td>
+<td align="center">Introdução e Metodologia</td>
+<td align="center"><a href="https://github.com/biancasofia">Bianca</a>, <a href="htts://github.com/ubrando">Ugor</a>, <a href="https://github.com/DouglasMonteles">Douglas</a>, <a href="https://github.com/k3vin-batista">Kevin</a>, <a href="https://github.com/ailtonaires">Ailton</a>, <a href="https://github.com/art1505">Arthur</a>, <a href="https://github.com/GabrielCostaDeOliveira">Gabriel</a>, <a href="https://github.com/iagoomr">Iago</a>, <a href="https://github.com/laispa">Laís</a> e <a href="https://github.com/EduardoGurgel">Eduardo</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">09/09/22</td>
+<td align="center">1.2</td>
+<td align="center">Tópicos que descrevem das metodologias extras</td>
+<td align="center"><a href="https://github.com/biancasofia">Bianca</a>, <a href="htts://github.com/ubrando">Ugor</a>, <a href="https://github.com/DouglasMonteles">Douglas</a>, <a href="https://github.com/k3vin-batista">Kevin</a>, <a href="https://github.com/ailtonaires">Ailton</a>, <a href="https://github.com/art1505">Arthur</a>, <a href="https://github.com/GabrielCostaDeOliveira">Gabriel</a>, <a href="https://github.com/iagoomr">Iago</a>, <a href="https://github.com/laispa">Laís</a> e <a href="https://github.com/EduardoGurgel">Eduardo</a></td>
+<td align="center"></td>
+</tr>
+</tbody>
+</table>
+<h2 id="434-post-mortem">4.3.4. Post Mortem</h2>
+<h3 id="introducao_3">Introdução</h3>
+<p>Este documento tem como objetivo fazer uma reflexão sobre o projeto, trazendo seus pontos positivos e pontos negativos, além de um breve relato com as - lições aprendidas pelo grupo.</p>
+<h3 id="metodologia_3">Metodologia</h3>
+<p>Cada membro da equipe ficou responsável por colocar sua visão em relação ao desenvolvimento do projeto, nesta visão estão os pontos positivos, negativos e - lições aprendidas.</p>
+<h4 id="ailton">Ailton</h4>
+<ul>
+<li>Pontos positivos: desenvolvimento de novas documentações, aprendizado de um novo framework e sempre estive bem interessado e pude aprender muito bem principalmente a parte de documentação</li>
+<li>Pontos negativos: não consegui participar tanto da parte do backend</li>
+<li>Lições aprendidas: desenvolvimento de uma série de novos documentos. Os artefatos foram bem interessantes no desenvolvimento da disciplina e no meu próprio conhecimento. Pude contribuir e aprender um pouco mais em relação a organização de equipe, conseguindo lidar bem com embates e pensamentos divergentes.</li>
+</ul>
+<h4 id="kevin">Kevin</h4>
+<ul>
+<li>Pontos positivos: Aprendizagem de práticas utilizadas no desenvolvimento de software, outra visão sobre o quanto uma documentação de um projeto facilita na sua execução e grande evolução no conhecimento sobre ciclo de vida de um projeto.</li>
+<li>Pontos negativos: Falta de tempo para aplicar mais ainda os conhecimentos da disciplina.</li>
+<li>Lições aprendidas: Foi a matéria que mais criei expectativa nessa volta ao presencial por saber que os conceitos são extremamente utilizados no mercado de trabalho. Todas as expectativas foram cumpridas e eu consegui consolidar meu conhecimento. Aprendi também novas tecnologias e pude perceber que, no final, o que mais importa é o know how e não a tecnologia em si (não tirando sua importância). </li>
+</ul>
+<h4 id="lais">Laís</h4>
+<ul>
+<li>Pontos positivos: Meu aprendizado em arquitetura, em como construir um aplicativo de forma correta, documentada e "bonitinha" deu um salto em relação ao semestre anterior. Gostei muito de aprender sobre as reutilizações, grasp, sobre os diferentes tipos de diagrama, pois dos que aprendemos só tinha trabalhado com 2 ou 3 deles antes. Os vídeos no moodle me ajudou bastante em rever o que não entendi para executar no projeto </li>
+<li>Pontos negativos: Pra mim o principal deles em relação ao projeto é o de lidar com 10 estudantes, nunca tinha trabalhado com tanta gente, então tive um pouco de dificuldade em comunicação. O tempo desse semestre nos atrapalhou um pouquinho, não muito porque temos as aulas gravadas.</li>
+<li>Lições aprendidas: Usar o telegram ao invés do whatsapp teria me ajudado bastante. Poderíamos ter um grupo só de avisos para ninguém se perder. Apesar de não conseguir ser Scrum Master em tempo integral, aprendi bastante com isso.</li>
+</ul>
+<h4 id="iago">Iago</h4>
+<ul>
+<li>Pontos positivos: Foi um semestre muito positivo no ponto de vista de conhecimento, além de ter uma experiência sendo Scrum Master parte do tempo, consegui absorver muito sobre a construção de um software, documentação, uso de algumas ferramentas e organização para trabalhar em equipe.</li>
+<li>Pontos negativos: Acho que o principal foi a grande quantidade de conteúdo em cada módulo. Outro ponto foi que a maioria das entregas coincidiam com entregas grandes de outras matérias. E por último, já que o grupo era muito grande (10 pessoas) as vezes ficava complicado marcar reunião, então a gente acabava demorando um pouco a começar a trabalhar para as entregas.</li>
+<li>Lições aprendidas: Aprendi a criar diversos documentos relacionados a arquitetura do software, como usá-las e principalmente a relevância delas em um projeto. Acredito que evolui meu trabalho em equipe e como trabalhar de maneira mais eficientemente assim. A disciplina e o projeto também contribuíram bastante no uso de boas práticas, tanto em desenvolvimento, quanto organizacionalmente.</li>
+</ul>
+<h4 id="ugor">Ugor</h4>
+<ul>
+<li>Pontos positivos:</li>
+<li>Pontos negativos: Falta de tempo </li>
+<li>Lições aprendidas: Esse semestre foi atípico por causa da volta das aulas presenciais que mexe com toda a rotina. Dito isso, a experiência com a disciplina foi engrandecedora, trabalhar em equipe e lidar com essa organização é sempre um desafio, mas posso dizer que a cada entrega o engajamento do grupo foi aumentando à medida que a comunicação também foi sendo construída. O conteúdo em si se faz muito interessante e cheguei a comentar com os integrantes que gostaria de mais tempo para poder destrinchar tudo e por isso farei o download de tudo. A parte do desenvolvimento me fez ter contato com tecnologias que ainda não tinha tido: angular e spring, o auxílio dos outros integrantes me fizeram entender melhor na prática o que havia sido tratado nos conteúdos em aula.</li>
+</ul>
+<h4 id="bianca">Bianca</h4>
+<ul>
+<li>Pontos positivos: Novos conhecimentos sobre modelagem e principalmente padrões de projeto, sendo essa uma parte muito importante na vida acadêmica e profissional. Além disso, o aprimoramento em back-end e trabalho em equipe.</li>
+<li>Pontos negativos: Tempo um pouco apertado, levando em consideração o semestre curto.</li>
+<li>Lições aprendidas </li>
+</ul>
+<h3 id="arthur">Arthur</h3>
+<ul>
+<li>Pontos positivos: Antes de iniciar a disciplina, minha experiência com arquitetura de software era bastante superficial. Conceitualmente, era quase nula, apesar de ter tido um pequeno contato através de disciplinas anteriores.
+Gostei bastante do fato de possuirmos uma infinidade de materiais disponíveis para estudo em cada módulo. As aulas gravadas muitas vezes sanaram dúvidas que, eventualmente, se arrastavam pelas aulas presenciais.
+Também achei interessante a coerência entre os módulos. Cada um deles parecia complementar o anterior e assim proporcionar o processo de construção do conhecimento dentro da disciplina.
+Outro ponto diferente, mas também interessante, foi a divisão em grupos de 10 integrantes. Para a nossa profissão, saber interagir com grupos grandes de desenvolvimento se faz mais do que necessário.</li>
+<li>Pontos negativos: Apesar dos pontos positivos em se trabalhar em equipe, o gerenciamento entre demandas do projeto e o estudo dos conteúdos no geral se mostrou um desafio. Muitos de nós acabamos, devido ao pouco tempo em meio a um semestre encurtado, focando em nossas demandas individuais e deixando de lado os conteúdos relacionados aos demais integrantes. Talvez grupos um pouco menores poderiam proporcionarum domínio maior de cada módulo pelos integrantes.
+Acho que poderiam ter pontos de controle entre as entregas, pois isso permitiria o aperfeiçoamento dos artefatos até a entrega final. Contudo, entendo que o semestre se mostrou curto demais para esses tipos de atividades por módulo.</li>
+<li>Lições aprendidas: Inúmeros são os aprendizados com essa disciplina. É claro que antes de iniciarmos o semestre, tínhamos noções de boas práticas e aspectos arquiteturais. Contudo, findamos com uma bagagem mais completa que abrange desde aspectos metodológicos teóricos do mercado até aspectos práticos mais detalhados como pormenores de modelagem e padrões de projetos. Hoje, ainda que despreparados, temos consciência da grandeza e importância do cargo de arquiteto de software para o processo de desenvolvimento de um produto de software.</li>
+</ul>
+<h4 id="douglas">Douglas</h4>
+<ul>
+<li>Pontos positivos: Consegui exercitar ainda mais as minhas habilidades como programador Fullstack atuando tanto no desenvolvimento do backend quanto do frontend. Também pude aprimorar ainda mais os meus conhecimentos de design patterns, o que eu considero bem importante para um programador.</li>
+<li>Pontos negativos: Dificuldades de se gerenciar um projeto com outros nove estudantes com conhecimentos e formas de pensar diferentes, o que é um desafio em qualquer projeto desenvolvido em grupo.</li>
+<li>Lições aprendidas: Gerenciar melhor o tempo para dedicar ao projeto, dividindo inclusive o tempo aplicado em cada parte do projeto e trabalho em equipe, que contribuiu bastante para o andamento do projeto.</li>
+</ul>
+<h4 id="eduardo">Eduardo</h4>
+<ul>
+<li>Pontos positivos: Ao longo do desenvolvimento do projeto percebi muitos conceitos novos, principalmente no primeiro módulo, mas ao longo do curso me desenvolvi bastante.</li>
+<li>Pontos negativos: Acredito que por ser uma disciplina muito densa, alguns conceitos acabam não tendo muito foco e passam despercebidos</li>
+<li>Lições aprendidas: Aprendi mais a trabalhar em equipe e lidar com diferentes tecnologias.</li>
+</ul>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.16e2a7d4.min.js", "translations": {"clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "search.config.lang": "pt", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Buscar", "search.result.more.one": "Mais 1 nesta p\u00e1gina", "search.result.more.other": "Mais # nesta p\u00e1gina", "search.result.none": "Nenhum resultado encontrado", "search.result.one": "1 resultado encontrado", "search.result.other": "# resultados encontrados", "search.result.placeholder": "Digite para iniciar a busca", "search.result.term.missing": "Ausente", "select.version.title": "Selecione a vers\u00e3o"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.8492ddcf.min.js"></script>
+      
+        <script src="../../javascripts/mathjax.js"></script>
+      
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+    
+  </body>
+</html>

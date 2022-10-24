@@ -1,0 +1,1796 @@
+
+<!doctype html>
+<html lang="pt" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      <link rel="icon" href="../../assets/favicon.svg">
+      <meta name="generator" content="mkdocs-1.4.1, mkdocs-material-8.5.7">
+    
+    
+      
+        <title>1.1 Módulo Projeto Não Orientado a Abordagens Específicas - 2022.1_G3_Bazar</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.20d9efc8.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.cbb835fc.min.css">
+        
+          
+          
+          <meta name="theme-color" content="">
+        
+      
+      
+
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,700,700i%7Csans-serif:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Montserrat";--md-code-font:"sans-serif"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/styles.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="#fff" data-md-color-accent="#0b4d9b">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#11-modulo-projeto-nao-orientado-a-abordagens-especificas" class="md-skip">
+          Ir para o conteúdo
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabeçalho">
+    <a href="../.." title="2022.1_G3_Bazar" class="md-header__button md-logo" aria-label="2022.1_G3_Bazar" data-md-component="logo">
+      
+  <img src="../../assets/favicon.svg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            2022.1_G3_Bazar
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              1.1 Módulo Projeto Não Orientado a Abordagens Específicas
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Buscar" placeholder="Buscar" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Pesquisar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpar" aria-label="Limpar" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando a pesquisa
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://unbarqdsw2022-1.github.io/2022.1_G3_Bazar/" title="Ir ao repositório" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    2022.1_G3_Bazar
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navegação" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="2022.1_G3_Bazar" class="md-nav__button md-logo" aria-label="2022.1_G3_Bazar" data-md-component="logo">
+      
+  <img src="../../assets/favicon.svg" alt="logo">
+
+    </a>
+    2022.1_G3_Bazar
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://unbarqdsw2022-1.github.io/2022.1_G3_Bazar/" title="Ir ao repositório" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    2022.1_G3_Bazar
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        Início
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2">
+          1.Base
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="1.Base" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          1.Base
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_1" type="checkbox" id="__nav_2_1" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_1">
+          1.1. Módulo Projeto Não Orientado a Abordagens Específicas
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="1.1. Módulo Projeto Não Orientado a Abordagens Específicas" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_1">
+          <span class="md-nav__icon md-icon"></span>
+          1.1. Módulo Projeto Não Orientado a Abordagens Específicas
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../1.1.DesignSprint/" class="md-nav__link">
+        Design Sprint
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../1.1.5W2H/" class="md-nav__link">
+        5W2H
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../1.1.MapaMental/" class="md-nav__link">
+        Mapa Mental
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../1.1.Diagrama-Causa-Efeito/" class="md-nav__link">
+        Diagrama de Causa-Efeito
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../1.1.Custo-Tempo/" class="md-nav__link">
+        Custo e Tempo
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../1.1.RichPicture/" class="md-nav__link">
+        Rich Picture
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../1.1.Lexico/" class="md-nav__link">
+        Léxico
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../1.1.Planos-de-Risco/" class="md-nav__link">
+        Plano de Risco
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../1.2.ProcessosMetodologiasAbordagens/" class="md-nav__link">
+        1.2. Módulo Processos/Metodologias/Abordagens
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../1.3.IniciativasExtras/" class="md-nav__link">
+        1.3. Iniciativas Extras - Base
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../1.4.ParticipacoesBase/" class="md-nav__link">
+        1.4. Participações - Base
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3">
+          2.Modelagem
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="2.Modelagem" data-md-level="1">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          2.Modelagem
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_1" type="checkbox" id="__nav_3_1" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_1">
+          2.1.1.Notação UML – Diagramas Estáticos
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="2.1.1.Notação UML – Diagramas Estáticos" data-md-level="2">
+        <label class="md-nav__title" for="__nav_3_1">
+          <span class="md-nav__icon md-icon"></span>
+          2.1.1.Notação UML – Diagramas Estáticos
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Modelagem/2.1.1.DiagramaDeClasses/" class="md-nav__link">
+        Diagrama de Classes
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Modelagem/2.1.1.DiagramaComponentes/" class="md-nav__link">
+        Diagrama de Componentes
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Modelagem/2.1.1.DiagramaDeImplantacao/" class="md-nav__link">
+        Diagrama de Implantação
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Modelagem/2.1.1.DiagramaPacotes/" class="md-nav__link">
+        Diagrama de Pacotes
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_2" type="checkbox" id="__nav_3_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_2">
+          2.1.2. Notação UML – Diagramas Dinâmicos
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="2.1.2. Notação UML – Diagramas Dinâmicos" data-md-level="2">
+        <label class="md-nav__title" for="__nav_3_2">
+          <span class="md-nav__icon md-icon"></span>
+          2.1.2. Notação UML – Diagramas Dinâmicos
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Modelagem/2.1.2.DiagramaDeSequencia/" class="md-nav__link">
+        Diagrama de Sequência
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Modelagem/2.1.2.DiagramaEstados/" class="md-nav__link">
+        Diagrama de Estados
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Modelagem/2.1.2.DiagramaAtividades/" class="md-nav__link">
+        Diagrama de Atividades
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_3" type="checkbox" id="__nav_3_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_3">
+          2.1.3 Modelagem Ágil
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="2.1.3 Modelagem Ágil" data-md-level="2">
+        <label class="md-nav__title" for="__nav_3_3">
+          <span class="md-nav__icon md-icon"></span>
+          2.1.3 Modelagem Ágil
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Modelagem/2.1.3.Backlog/" class="md-nav__link">
+        Product Backlog
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Modelagem/2.2.IniciativasExtras/" class="md-nav__link">
+        2.2. Iniciativas Extras - Modelagem
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Modelagem/2.3.ParticipacoesModelagem/" class="md-nav__link">
+        2.3. Participações - Modelagem
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#12-introducao" class="md-nav__link">
+    1.2  Introdução
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#13-design-sprint" class="md-nav__link">
+    1.3 Design Sprint
+  </a>
+  
+    <nav class="md-nav" aria-label="1.3 Design Sprint">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#unpack-20062022" class="md-nav__link">
+    Unpack - (20/06/2022)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sketch-23062022" class="md-nav__link">
+    Sketch - (23/06/2022)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#decision-23062022" class="md-nav__link">
+    Decision - (23/06/2022)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#prototype-25062022" class="md-nav__link">
+    Prototype - (25/06/2022)
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#14-5w2h" class="md-nav__link">
+    1.4 5W2H
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#15-mapa-mental" class="md-nav__link">
+    1.5 Mapa Mental
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#16-diagrama-causa-efeito" class="md-nav__link">
+    1.6  Diagrama Causa-Efeito
+  </a>
+  
+    <nav class="md-nav" aria-label="1.6  Diagrama Causa-Efeito">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#161-introducao" class="md-nav__link">
+    1.6.1 Introdução
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#162-metodologia" class="md-nav__link">
+    1.6.2 Metodologia
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#163-diagramas" class="md-nav__link">
+    1.6.3 Diagramas
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#17-estimativas-de-custo-de-software" class="md-nav__link">
+    1.7 ESTIMATIVAS DE CUSTO DE SOFTWARE
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#171-introducao" class="md-nav__link">
+    1.7.1 Introdução
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#172-modelo-de-custo-construtivo-constructive-cost-model-cocomo" class="md-nav__link">
+    1.7.2 MODELO DE CUSTO CONSTRUTIVO (CONSTRUCTIVE COST MODEL - COCOMO)
+  </a>
+  
+    <nav class="md-nav" aria-label="1.7.2 MODELO DE CUSTO CONSTRUTIVO (CONSTRUCTIVE COST MODEL - COCOMO)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#173-calculo-da-estimativa-do-esforco" class="md-nav__link">
+    1.7.3 Calculo da Estimativa do Esforço
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#174-calculo-da-estimativa-do-tempo" class="md-nav__link">
+    1.7.4 Calculo da Estimativa do Tempo
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#175-resultados" class="md-nav__link">
+    1.7.5 Resultados
+  </a>
+  
+    <nav class="md-nav" aria-label="1.7.5 Resultados">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#estimativa-de-quantidade-de-linhas-de-codigos" class="md-nav__link">
+    Estimativa de Quantidade de Linhas de Códigos
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#176-estimativa-de-esforco" class="md-nav__link">
+    1.7.6 Estimativa de Esforço
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#177-estimativa-de-tempo" class="md-nav__link">
+    1.7.7 Estimativa de Tempo
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#178-referencias" class="md-nav__link">
+    1.7.8 Referências
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#179-historico-de-revisao" class="md-nav__link">
+    1.7.9 Histórico de revisão
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#18-rich-picture" class="md-nav__link">
+    1.8 Rich Picture
+  </a>
+  
+    <nav class="md-nav" aria-label="1.8 Rich Picture">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#181-introducao" class="md-nav__link">
+    1.8.1 Introdução
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#182-versoes-do-rich-picture" class="md-nav__link">
+    1.8.2. Versões do Rich Picture
+  </a>
+  
+    <nav class="md-nav" aria-label="1.8.2. Versões do Rich Picture">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#21-ugor-marcilio-brandao-costa" class="md-nav__link">
+    2.1 Ugor Marcilio Brandão Costa
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22-bianca-sofia-brasil-de-oliveira" class="md-nav__link">
+    2.2 Bianca Sofia Brasil de Oliveira
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#23-douglas-da-silva-monteles" class="md-nav__link">
+    2.3 Douglas da Silva Monteles
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#24-gabriel-costa-de-oliveira" class="md-nav__link">
+    2.4 Gabriel Costa de Oliveira
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#25-eduardo-gurgel" class="md-nav__link">
+    2.5 Eduardo Gurgel
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#173-rich-picture-escolhido" class="md-nav__link">
+    1.7.3 Rich Picture Escolhido
+  </a>
+  
+    <nav class="md-nav" aria-label="1.7.3 Rich Picture Escolhido">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#31-douglas-da-silva-monteles" class="md-nav__link">
+    3.1 Douglas da Silva Monteles
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#184-referencias" class="md-nav__link">
+    1.8.4 Referências
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#19-lexico-ou-glossario" class="md-nav__link">
+    1.9 Léxico (ou Glossário)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#110-planos-de-risco-custo-e-tempo" class="md-nav__link">
+    1.10 Planos de Risco, Custo e Tempo
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#20-versionamento" class="md-nav__link">
+    2.0 Versionamento
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="11-modulo-projeto-nao-orientado-a-abordagens-especificas">1.1 Módulo Projeto Não Orientado a Abordagens Específicas</h1>
+<p>Estudar o domínio de aplicações similares, e realizar Design Sprint para levantamento dos principais artefatos e requisitos.</p>
+<p>Foco_1: Técnicas de Elicitação, Artefatos Independentes de Metodologia e Esboço da Baseline de Requisitos (Priorizada)</p>
+<p>Entrega Mínina: Design Sprint, 5W2H, Mapa Mental, Diagrama Causa-Efeito, Rich Picture, Léxico (ou Glossário) e Planos de Risco, Custo e Tempo.</p>
+<p>Apresentação (em sala) explicando passo a passo a Design Sprint realizada, com: (i) rastro claro aos membros participantes; (ii) justificativas &amp; senso crítico sobre o trabalho realizado; (iii) breve apresentação dos artefatos
+elaborados, e (iv) comentários gerais sobre iniciativas extras. Tempo da Apresentação: +/- 10min. Recomendação: Apresentar diretamente via Wiki ou GitPages do Projeto.</p>
+<p>A Wiki ou GitPages do Projeto deve conter um tópico dedicado ao Módulo Projeto Não Orientado a Abordagens Específicas, com artefatos, histórico de versões, referências, e demais detalhamentos gerados pela equipe nesse escopo.</p>
+<p>Demais orientações disponíveis nas Diretrizes (vide Moodle).</p>
+<h2 id="12-introducao">1.2  Introdução</h2>
+<h2 id="13-design-sprint">1.3 Design Sprint</h2>
+<p>A Design Sprint é um processo constituído por cinco etapas desenvolvido pela Google Ventures, que utiliza o design thinking com o objetivo de reduzir o risco ao elaborar um novo produto.</p>
+<p>Neste processo, estima-se que suas atividades sejam realizadas em um período de 5 dias. A grande vantagem em relação às demais metodologias é que ao invés de esperar o lançamento de um MVP (Minimum Viable Product), atividade que pode durar meses, o Design Sprint foca especificamente na validação da ideia com usuários e encurta o processo para 40 horas de trabalho (5 dias, com 8 horas semanais).</p>
+<p>Dentro desse período, são distribuídas e realizadas atividades diárias: Unpack, Sketch, Decision, Prototype e Tet. A configuração para o nosso trabalho, tendo em vista as viabilidades, se deu da seguinte maneira:</p>
+<h3 id="unpack-20062022">Unpack - (20/06/2022)</h3>
+<p>Para realizar a definição, a equipe decidiu fazer a reunião via Teams, em que foi designado para cada membro uma tarefa a ser realizada. Também foi decidido que todos os membros elaborariam o 5W2H, e em um encontro posterior seria escolhido o melhor artefato.</p>
+<p>Conforme será mostrado mais adiante, a equipe também realizou nesta atividade, por meio da técnica de brainstorming, um mapa mental com o objetivo de produzir um levantamento razoável do escopo da solução.</p>
+<h3 id="sketch-23062022">Sketch - (23/06/2022)</h3>
+<p>Na parte do Sketch, cada membro da equipe apresentou, de acordo com seu entendimento e ponto de vista a respeito da solução, um desenho do Rich Picture por eles realizado a fim de que fosse posteriormente definido o design que mais se adequasse ao projeto.</p>
+<h3 id="decision-23062022">Decision - (23/06/2022)</h3>
+<p>A escolha do melhor desenho foi realizada por meio de apresentação dos rich pictures de cada membro, e, logo em seguida, foi escolhido o desenho mais completo por meio de uma votação. Tal desenho será apresentado adiante com maior riqueza de detalhes.</p>
+<p>Decidiu-se também a respeito da storyboarding que serviria como suporte para o processo de prototipação.</p>
+<p>Aqui está o resultado:</p>
+<p><img alt="Storyboard" src="../../img/storyboardArq.jpeg" /></p>
+<h3 id="prototype-25062022">Prototype - (25/06/2022)</h3>
+<ul>
+<li>
+<p>Protótipo de média/baixa fidelidade:</p>
+<p><iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2Fnulk3d54ykOojMUTzL23qb%2FWEBazar---baixa%252Fm%25C3%25A9dia-fidelidade%3Fnode-id%3D0%253A1" allowfullscreen></iframe></p>
+</li>
+<li>
+<p>Protótipo de alta fidelidade:</p>
+</li>
+</ul>
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F5CQDrmcQww616VqRvCMM4A%2FUntitled%3Fnode-id%3D121%253A3543%26scaling%3Dscale-down%26page-id%3D0%253A1" allowfullscreen></iframe>
+
+<h2 id="14-5w2h">1.4 5W2H</h2>
+<h2 id="15-mapa-mental">1.5 Mapa Mental</h2>
+<p>Mapa mental é um diagrama que trabalha os aspectos e características de um tema principal escolhido, usando conceitos
+,items e tarefas para tentar entender melhor a ideia destacada através de ramificações que partem da ideia central. Dessa forma, é uma ferramenta de pensamento visual 
+que ajuda a estruturar informações para melhor analisar, entender, lembrar e gerar ideias novas, já que “uma linguagem abstrata de sinais e símbolos é privativa da espécie humana.
+Com ela, os seres humanos construíram mundos mentais para se relacionarem entre si e
+com a realidade externa”. (TUAN, 1980, p.15).</p>
+<p>Esse mapa mental foi elaborado através de um brainstorming, com a finalidade de entender o escopo do projeto e seus benefícios.</p>
+<p><img alt="Mapa Mental" src="../../img/mapa_mental.png" /></p>
+<p>link https://whimsical.com/mapa-mental-Y372R4Jv9bXWx2oFFAbgg</p>
+<h2 id="16-diagrama-causa-efeito">1.6  Diagrama Causa-Efeito</h2>
+<h3 id="161-introducao">1.6.1 Introdução</h3>
+<p>O Diagrama de Ishikawa, também conhecido como Diagrama de Causa e Efeito ou Diagrama Espinha de peixe, é um gráfico cuja finalidade é de representar a relação entre um “efeito” e suas possíveis “causas”. </p>
+<p>As espinhas principais representam as causas primárias (macro-causas) do problema e as ramificações dessas espinhas representam as causas secundárias.A ideia é que, no final da espinha, chegamos às micro causas reais e específicas do que está causando aquele efeito </p>
+<p>Quando aplicada a metodologia 6M, podemos classificar as causas do problema em 6 categorias </p>
+<ol>
+<li>Método </li>
+<li>Material </li>
+<li>Mão-de-obra </li>
+<li>Máquina </li>
+<li>Medida </li>
+<li>Meio ambiente </li>
+</ol>
+<h3 id="162-metodologia">1.6.2 Metodologia</h3>
+<p>O diagrama Ishikawa se adaptado pode ser aplicado em diversos problemas.Desta forma, modificamos algumas causas primária para que ele pode ser utilizado não só no processo de engenharia de software como também a da análise do produto em si.</p>
+<p>A ferramenta escolhida para a criação dos modelos foi o google drawing.</p>
+<h3 id="163-diagramas">1.6.3 Diagramas</h3>
+<p><center>
+<br />
+<figure>
+    <figcaption>Figura 1: Diagrama Causa-Efeito - Análise do Produto</figcaption>
+      <img width="100%" src="../img/causa_efeito1.png" />
+    <figcaption>Fonte: Próprio autor</figcaption>
+  </figure></p>
+<p></center></p>
+<p><center>
+<br />
+<figure>
+    <figcaption>Figura 2: Diagrama Causa-Efeito - Análise do Projeto</figcaption>
+      <img width="100%" src="../img/causa_efeito2.png" />
+    <figcaption>Fonte: Próprio autor</figcaption>
+  </figure></p>
+<p></center></p>
+<h2 id="17-estimativas-de-custo-de-software">1.7 ESTIMATIVAS DE CUSTO DE SOFTWARE</h2>
+<h2 id="171-introducao">1.7.1 Introdução</h2>
+<p>A Estimativa de Custo de Software é o processo de previsão de esforço, tempo e gastos de insumos envolvidos na produção de um determinado projeto ou produto de software (Filho, 2014; Obilor et. al., 2021). A estimativa é um processo inicial no ciclo de vida de um software e de suma importância na tomada de decisões pelo PO, no gerenciamento de grandes projetos e no envolvimento de questões complexas de desenvolvimento, afim de evitar atrasos e obter sucesso na produção. O custo pode ser entendido como tudo aquilo que é inerente ao software e que de alguma forma gera "prejuízo" ou "perda" de algum recurso na construção do software, seja ele financeiro, tempo, dentre outros.</p>
+<p>A partir da Estimativa de Custo Software, o gerente de projeto terá informações suficientes sobre as  estimativas  de  tempo  e  custos  do  projeto, o que possibilita um melhor controle acerca do cronograma e do orçamento previstos. Isso facilita na tomada de decisões e em possíveis ajustes no Plan de Desenvolvimento de Software (Tetila et. al., 2011). </p>
+<p>Este documento apresenta o <strong>MODELO DE CUSTO CONSTRUTIVO (CONSTRUCTIVE COST MODEL - COCOMO)</strong>, que será utilizado para estimar os custos da produção do software. Vale lembrar que o processo de estimativa de custo leva em consideração o processo de produção do software, e não o seu ciclo de vida. Os custos envolvidos geralmente são de <strong>Custos de Matéria-Prima</strong>, <strong>Custos de Mão-de-Obra Direta</strong> e <strong>Custos Indiretos de Fabricação</strong>.</p>
+<h2 id="172-modelo-de-custo-construtivo-constructive-cost-model-cocomo">1.7.2 MODELO DE CUSTO CONSTRUTIVO (CONSTRUCTIVE COST MODEL - COCOMO)</h2>
+<p>COCOMO ou Modelo de Custo Construtivo "é um dos modelos de estimativa mais sofisticados que permitem chegar a
+estimativas razoavelmente precisas e razoáveis" (Obilor et. al., 2021). O COCOMO é um modelo de custo de software algorítmico e foi proposto por Boehm (2010).</p>
+<p>O COCOMO tem a seguinte hierarquia, onde sua utilização depende do software que está sendo construído e do grau de confiabilidade que se busca chegar com base nas estimativas:</p>
+<ul>
+<li>
+<p><strong>COCOMO Básico (Basic):</strong> computa o esforço e custo de desenvolvimento em função do tamanho do programa mensurado em linhas de código estimadas. A fórmula utilizada para esse modelo é: Esforço = a*(KLOC)b, onde KLOC denota o tamanho do código e as constantes a e b dependem do tipo do projeto.</p>
+</li>
+<li>
+<p><strong>COCOMO Intermediário (Intermediate):</strong> além de levar em consideração o esforço e cronograma do COCOMO básico como ponto de partida, ele leva em consideração fatores como confiabilidade necessária do produto, tamanho do banco de dados, restrição de execução e armazenamento, atributos de pessoal e uso de ferramentas de software. A fórmula utilizada para esse modelo é: Esforço = a.(KLOC).b.EAF. O fator de ajuste de esforço é representado pela sigla EAF.</p>
+</li>
+<li>
+<p><strong>COCOMO Detalhado (Detailed):</strong> além das características do COCOMO intermediário, inclui uma avaliação do impacto dos direcionadores de custo sobre cada etapa do desenvolvimento (Meller, 2002).</p>
+</li>
+</ul>
+<p><strong>O modelo COCOMO pode ser aplicado em três classes de projetos:</strong></p>
+<ul>
+<li><strong>Modo Orgânico:</strong> projetos simples, pequenos, com requisitos flexíveis, em equipes pequenas e experientes.</li>
+<li><strong>Modo Semidestacado:</strong> projetos medianos (em tamanho e complexidade), com alguns requisitos rígidos e outros não tão rígidos, com níveis experientes e não experientes nas equipes.</li>
+<li><strong>Modo Embutido:</strong> projetos com conjunto rígido de restrições operacionais, tanto de hardware, quanto de software.</li>
+</ul>
+<p>Dado as características do software que será desenvolvido, no caso um aplicativo para facilitar e agilizar o cadastro de possíveis monitores em disciplinas, o projeto se encaixa na classe de <strong>Semidestacado</strong>, pois ele exige certos requisitos rígidos, como confiabilidade na identificação dos dados corretos de monitores, há normas internas a FGA no processo de monitoria, entre outros requisitos que não são considerados triviais. Além do projeto ser composto por vários alunos que não fazem parte de uma equipe fixa, e que possuem níveis mistos de experiência tanto nas questões tecnológicas quanto no entendimento dos processos de monitoria.</p>
+<p>Com base nas características do software que será desenvolvido, o COCOMO Intermediário se apresenta como o mais adequado, já que a construção do software vai além da quantidade de linhas, sendo necessário recursos de hardware, humanos e de demais atributos do projeto. Quanto a classe do projeto, o modo Semidestacado parece ser o mais adequado, já que pode ser considerado um projeto mediano, onde a elicitação de requisitos serão rígidos e outros flexíveis, e principalmente quando falamos dos níveis de experiência da equipe, onde alguns já possuem experiências profissionais, experiência no uso da linguagem de programação e outros não. </p>
+<p>Neste modelo, o COCOMO Básico é ampliado com a finalidade de levar em consideração um conjunto de atributos direcionadores do custo que são agrupados em quatro categorias:</p>
+<ul>
+<li><strong>Atributos do produto:</strong></li>
+<li>confiabilidade exigida do software;</li>
+<li>tamanho do banco de dados;</li>
+<li>
+<p>complexidade do produto.</p>
+</li>
+<li>
+<p><strong>Atributos do hardware:</strong></p>
+</li>
+<li>restrições ao tempo de execução;</li>
+<li>restrições de memória;</li>
+<li>volatilidade do ambiente de máquina virtual;</li>
+<li>
+<p>tempo de turnaround (tempo para completar o ciclo) exigido.</p>
+</li>
+<li>
+<p><strong>Atributos de pessoal:</strong></p>
+</li>
+<li>capacidade do analista;</li>
+<li>experiência em aplicações;</li>
+<li>capacidade do programador;</li>
+<li>experiência em máquina virtual;</li>
+<li>
+<p>experiência com a linguagem de programação.</p>
+</li>
+<li>
+<p><strong>Atributos de projeto:</strong></p>
+</li>
+<li>uso de práticas modernas de programação;</li>
+<li>uso de ferramentas de software;</li>
+<li>cronograma exigido de desenvolvimento.</li>
+</ul>
+<p>Cada um desses atributos deve ser classificado de acordo com uma escala que varia de “muito baixo” a “extremamente elevado” (em importância e valor). A partir desta classificação determina-se o Multiplicador de Esforço (considerando a Tabela publicada por Boehm (1981)). O produto de todos os resultados de Multiplicadores de Esforços é chamado de Fator de Ajustamento de Esforço.</p>
+<table>
+    <thead>
+        <tr bgcolor="#6c6f73">
+            <th>Direcionadores de Custo</th>
+            <th>Muito Baixo</th>
+            <th>Baixo</th>
+            <th>Normal</th>
+            <th>Elevado</th>
+            <th>Muito Elevado</th>
+            <th>Extremamente Elevado</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td bgcolor="#9ea0a3" align="center" colspan=7>ATRIBUTOS DO PRODUTO</td>
+        </tr>
+        <tr>
+            <td>Confiabilidade exigida do software</td>
+            <td>0.75</td>
+            <td>0.88</td>
+            <td>1.00</td>
+            <td>1.15</td>
+            <td>1.40</td>
+            <td>-</td>
+        </tr>
+        <tr>
+            <td>Tamanho do banco de dados</td>
+            <td>-</td>
+            <td>0.94</td>
+            <td>1.00</td>
+            <td>1.08</td>
+            <td>1.16</td>
+            <td>-</td>
+        </tr>
+        <tr>
+            <td>Complexidade do produto</td>
+            <td>0.70</td>
+            <td>0.85</td>
+            <td>1.00</td>
+            <td>1.15</td>
+            <td>1.30</td>
+            <td>1.65</td>
+        </tr>
+        <tr>
+            <td bgcolor="#9ea0a3" align="center" colspan=7>ATRIBUTOS DO HARDWARE</td>
+        </tr>
+        <tr>
+            <td>Restrições ao tempo de execução</td>
+            <td>-</td>
+            <td>-</td>
+            <td>1.00</td>
+            <td>1.11</td>
+            <td>1.30</td>
+            <td>1.66</td>
+        </tr>
+        <tr>
+            <td>Restrições de memória</td>
+            <td>-</td>
+            <td>-</td>
+            <td>1.00</td>
+            <td>1.06</td>
+            <td>1.21</td>
+            <td>1.56</td>
+        </tr>
+        <tr>
+            <td>Volatilidade do ambiente de máquina</td>
+            <td>-</td>
+            <td>0.87</td>
+            <td>1.00</td>
+            <td>1.15</td>
+            <td>1.30</td>
+            <td>-</td>
+        </tr>
+        <tr>
+            <td>Tempo de turnaround (tempo para completar o ciclo) exigido</td>
+            <td>-</td>
+            <td>0.87</td>
+            <td>1.00</td>
+            <td>1.07</td>
+            <td>1.15</td>
+            <td>-</td>
+        </tr>
+        <tr>
+            <td bgcolor="#9ea0a3" align="center" colspan=7>ATRIBUTOS DE PESSOAL</td>
+        </tr>
+        <tr>
+            <td>Capacidade do analista</td>
+            <td>1.46</td>
+            <td>1.19</td>
+            <td>1.00</td>
+            <td>0.86</td>
+            <td>0.71</td>
+            <td>-</td>
+        </tr>
+        <tr>
+            <td>Experiência em aplicações</td>
+            <td>1.29</td>
+            <td>1.13</td>
+            <td>1.00</td>
+            <td>0.91</td>
+            <td>0.82</td>
+            <td>-</td>
+        </tr>
+        <tr>
+            <td>Capacidade do programador</td>
+            <td>1.42</td>
+            <td>1.17</td>
+            <td>1.00</td>
+            <td>0.86</td>
+            <td>0.70</td>
+            <td>-</td>
+        </tr>
+        <tr>
+            <td>Experiência em Máquina Virtual</td>
+            <td>1.21</td>
+            <td>1.10</td>
+            <td>1.00</td>
+            <td>0.90</td>
+            <td>-</td>
+            <td>-</td>
+        </tr>
+        <tr>
+            <td>Experiência com a linguagem de programação</td>
+            <td>1.14</td>
+            <td>1.07</td>
+            <td>1.00</td>
+            <td>0.95</td>
+            <td>-</td>
+            <td>-</td>
+        </tr>
+        <tr>
+            <td bgcolor="#9ea0a3" align="center" colspan=7>ATRIBUTO DE PROJETO</td>
+        </tr>
+        <tr>
+            <td>Uso de práticas modernas de programação</td>
+            <td>1.24</td>
+            <td>1.10</td>
+            <td>1.00</td>
+            <td>0.91</td>
+            <td>0.82</td>
+            <td>-</td>
+        </tr>
+        <tr>
+            <td>Uso de ferramentas de software</td>
+            <td>1.24</td>
+            <td>1.10</td>
+            <td>1.00</td>
+            <td>0.91</td>
+            <td>0.83</td>
+            <td>-</td>
+        </tr>
+        <tr>
+            <td>Cronograma exigido de desenvolvimento</td>
+            <td>1.23</td>
+            <td>1.08</td>
+            <td>1.00</td>
+            <td>1.04</td>
+            <td>1.10</td>
+            <td>-</td>
+        </tr>
+    </tbody>
+</table>
+
+<h4 id="173-calculo-da-estimativa-do-esforco">1.7.3 Calculo da Estimativa do Esforço</h4>
+<p>O resultado do esforço representa o valor de <strong>Pessoas/Mês</strong>
+O modelo COCOMO Intermediário usa a seguinte equação para a estimativa do esforço:</p>
+<p>$$ E = a * S^b * fae $$</p>
+<p>onde:</p>
+<ul>
+<li><strong>E:</strong> é o esforço aplicado (em pessoas-mês).</li>
+<li><strong>S:</strong> é o número (estimado) de linhas de código para o projeto (em milhares).</li>
+<li><strong>a:</strong> é um coeficiente fornecido pela Tabela.</li>
+<li><strong>b:</strong> é um expoente fornecido pela Tabela.</li>
+<li><strong>fae:</strong> é o Fator de Ajustamento do Esforço (multiplicação de cada um dos Multiplicadores de Esforço fornecidos pela Tabela).</li>
+</ul>
+<p>Tabela para os valores dos coeficientes "a" e "b" de acordo com o tipo do projeto, a mesma tabela utilizada no COCOMO básico:</p>
+<table>
+<thead>
+<tr>
+<th align="center">Projeto de Software</th>
+<th align="left">a</th>
+<th align="center">b</th>
+<th align="center">c</th>
+<th align="center">d</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">Orgânico</td>
+<td align="left">2.40</td>
+<td align="center">1.05</td>
+<td align="center">2.50</td>
+<td align="center">0.38</td>
+</tr>
+<tr>
+<td align="center">Semidestacado</td>
+<td align="left">3.00</td>
+<td align="center">1.12</td>
+<td align="center">2.50</td>
+<td align="center">0.35</td>
+</tr>
+<tr>
+<td align="center">Embutido</td>
+<td align="left">3.60</td>
+<td align="center">1.20</td>
+<td align="center">2.50</td>
+<td align="center">0.32</td>
+</tr>
+</tbody>
+</table>
+<p>Como dito na introdução, nosso projeto é do tipo Semidestacado, portanto os valores serão <strong>a = 3.00</strong> e <strong>b = 1.12</strong>.</p>
+<h4 id="174-calculo-da-estimativa-do-tempo">1.7.4 Calculo da Estimativa do Tempo</h4>
+<p>Representa a <strong>quantidade de meses prevista para a conclusão do projeto</strong>:</p>
+<div class="arithmatex">\[T = c * E^d\]</div>
+<p>onde:</p>
+<ul>
+<li><strong>E:</strong> é o esforço aplicado (em pessoas-mês).</li>
+<li><strong>T:</strong> é o tempo de desenvolvimento (em meses cronológicos).</li>
+<li><strong>S:</strong> é o número estimado de linhas de código em milhares (KLOC)* .</li>
+<li><strong>a:</strong> é um coeficiente fornecido pela Tabela.</li>
+<li><strong>b:</strong> é um expoente fornecido pela Tabela.</li>
+<li><strong>c:</strong> é um coeficiente fornecido pela Tabela.</li>
+<li><strong>d:</strong> é um expoente fornecido pela Tabela.</li>
+</ul>
+<h3 id="175-resultados">1.7.5 Resultados</h3>
+<h4 id="estimativa-de-quantidade-de-linhas-de-codigos">Estimativa de Quantidade de Linhas de Códigos</h4>
+<p>As linhas do código foram baseadas no projeto da disciplina de Requisitos de Software, feito no segundo semestre de 2021 na UnB. O nome dado ao projeto foi Pousada Animal. Por ser um projeto de escopo pequeno, com duração de um semestre letivo, do ramo de vendas, tendo sido feito para uma plataforma Web, é esperado que o projeto WEBazar tenha um número de linhas final bem próximo da Pousada Animal.</p>
+<p>A ferramenta <strong><em>cloc</em></strong> foi usada para a contagem das linhas do proejeto.</p>
+<h4 id="176-estimativa-de-esforco">1.7.6 Estimativa de Esforço</h4>
+<p>O valor de <strong><em>fae</em></strong> foi definido através da multiplicação dos pesos atribuidos a cada atributo através de uma reunião em grupo para a convergência em cada esforço de cada atributo:</p>
+<table>
+    <thead>
+        <tr bgcolor="#6c6f73">
+            <th>Direcionadores de Custo</th>
+            <th>Muito Baixo</th>
+            <th>Baixo</th>
+            <th>Normal</th>
+            <th>Elevado</th>
+            <th>Muito Elevado</th>
+            <th>Extremamente Elevado</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td bgcolor="#9ea0a3" align="center" colspan=7>ATRIBUTOS DO PRODUTO</td>
+        </tr>
+        <tr>
+            <td>Confiabilidade exigida do software</td>
+            <td>0.75</td>
+            <td>0.88</td>
+            <td bgcolor="#87CEEB">1.00</td>
+            <td>1.15</td>
+            <td>1.40</td>
+            <td>-</td>
+        </tr>
+        <tr>
+            <td>Tamanho do banco de dados</td>
+            <td>-</td>
+            <td>0.94</td>
+            <td>1.00</td>
+            <td bgcolor="#87CEEB">1.08</td>
+            <td>1.16</td>
+            <td>-</td>
+        </tr>
+        <tr>
+            <td>Complexidade do produto</td>
+            <td>0.70</td>
+            <td>0.85</td>
+            <td bgcolor="#87CEEB">1.00</td>
+            <td >1.15</td>
+            <td>1.30</td>
+            <td>1.65</td>
+        </tr>
+        <tr>
+            <td bgcolor="#9ea0a3" align="center" colspan=7>ATRIBUTOS DO HARDWARE</td>
+        </tr>
+        <tr>
+            <td>Restrições ao tempo de execução</td>
+            <td>-</td>
+            <td>-</td>
+            <td bgcolor="#87CEEB">1.00</td>
+            <td>1.11</td>
+            <td>1.30</td>
+            <td>1.66</td>
+        </tr>
+        <tr>
+            <td>Restrições de memória</td>
+            <td>-</td>
+            <td>-</td>
+            <td bgcolor="#87CEEB">1.00</td>
+            <td>1.06</td>
+            <td>1.21</td>
+            <td>1.56</td>
+        </tr>
+        <tr>
+            <td>Volatilidade do ambiente de máquina</td>
+            <td>-</td>
+            <td bgcolor="#87CEEB">0.87</td>
+            <td>1.00</td>
+            <td>1.15</td>
+            <td>1.30</td>
+            <td>-</td>
+        </tr>
+        <tr>
+            <td>Tempo de turnaround (tempo para completar o ciclo) exigido</td>
+            <td>-</td>
+            <td>0.87</td>
+            <td bgcolor="#87CEEB">1.00</td>
+            <td>1.07</td>
+            <td>1.15</td>
+            <td>-</td>
+        </tr>
+        <tr>
+            <td bgcolor="#9ea0a3" align="center" colspan=7>ATRIBUTOS DE PESSOAL</td>
+        </tr>
+        <tr>
+            <td>Capacidade do analista</td>
+            <td>1.46</td>
+            <td>1.19</td>
+            <td>1.00</td>
+            <td bgcolor="#87CEEB">0.86</td>
+            <td>0.71</td>
+            <td>-</td>
+        </tr>
+        <tr>
+            <td>Experiência em aplicações</td>
+            <td>1.29</td>
+            <td>1.13</td>
+            <td>1.00</td>
+            <td bgcolor="#87CEEB">0.91</td>
+            <td>0.82</td>
+            <td>-</td>
+        </tr>
+        <tr>
+            <td>Capacidade do programador</td>
+            <td>1.42</td>
+            <td>1.17</td>
+            <td>1.00</td>
+            <td bgcolor="#87CEEB">0.86</td>
+            <td>0.70</td>
+            <td>-</td>
+        </tr>
+        <tr>
+            <td>Experiência em Máquina Virtual</td>
+            <td>1.21</td>
+            <td>1.10</td>
+            <td bgcolor="#87CEEB">1.00</td>
+            <td>0.90</td>
+            <td>-</td>
+            <td>-</td>
+        </tr>
+        <tr>
+            <td>Experiência com a linguagem de programação</td>
+            <td>1.14</td>
+            <td>1.07</td>
+            <td>1.00</td>
+            <td bgcolor="#87CEEB">0.95</td>
+            <td>-</td>
+            <td>-</td>
+        </tr>
+        <tr>
+            <td bgcolor="#9ea0a3" align="center" colspan=7>ATRIBUTO DE PROJETO</td>
+        </tr>
+        <tr>
+            <td>Uso de práticas modernas de programação</td>
+            <td>1.24</td>
+            <td>1.10</td>
+            <td>1.00</td>
+            <td bgcolor="#87CEEB">0.91</td>
+            <td>0.82</td>
+            <td>-</td>
+        </tr>
+        <tr>
+            <td>Uso de ferramentas de software</td>
+            <td>1.24</td>
+            <td>1.10</td>
+            <td>1.00</td>
+            <td bgcolor="#87CEEB">0.91</td>
+            <td>0.83</td>
+            <td>-</td>
+        </tr>
+        <tr>
+            <td>Cronograma exigido de desenvolvimento</td>
+            <td>1.23</td>
+            <td>1.08</td>
+            <td bgcolor="#87CEEB">1.00</td>
+            <td>1.04</td>
+            <td>1.10</td>
+            <td>-</td>
+        </tr>
+    </tbody>
+</table>
+
+<p>O valor de <strong><em>fae</em></strong> definido foi de 0,520633071, simplificando temos 0,52.</p>
+<p>Para 3Kloc
+<span class="arithmatex">\(<span class="arithmatex">\(E = a * S^b * fae\)</span>\)</span>
+$$E = 3,0 * 6,3^{1,12} * (0,52)
+$$
+$$
+    E = 12,27 pessoas/mes
+$$</p>
+<h4 id="177-estimativa-de-tempo">1.7.7 Estimativa de Tempo</h4>
+<p>Utiliza o resultado calculado do esforço para calcular o tempo, pois estão diretamente relacionados, também utiliza o coeficiente <strong>c = 2.50</strong> e <strong>d = 0.35</strong> da tabela:</p>
+<p>Para 6,35Kloc</p>
+<div class="arithmatex">\[T = c * E^d \]</div>
+<div class="arithmatex">\[T = 2.50 * 12.27^{0.35}\]</div>
+<div class="arithmatex">\[ T = 6.01 meses\]</div>
+<h2 id="178-referencias">1.7.8 Referências</h2>
+<p>[^1] Filho, Antonio Mendes Silva. <strong>Estimativa De Custo De Software: Roteiro E Dicas Para Estimativas De Projeto.</strong> Revista Espaço Acadêmico 13.156 - 2014 - Disponível em: <a href="https://periodicos.uem.br/ojs/index.php/EspacoAcademico/article/download/23850/12975/">https://periodicos.uem.br/ojs/index.php/EspacoAcademico/article/download/23850/12975/</a></p>
+<p>[^2] Meller, Maristela Corrêa. <strong>Modelos Para Estimar Custos De Software: Estudo Comparativo Com Softwares De Pequeno Porte.</strong> 2002. Disponível em: <a href="https://repositorio.ufsc.br/xmlui/handle/123456789/82351">https://repositorio.ufsc.br/xmlui/handle/123456789/82351</a></p>
+<p>[^3] Tetila, Everton &amp; Costa, Ivanir &amp; Spinola, Mauro &amp; Tetila, J.Q.S.. (2011). <strong>Processo de Estimativa de Software com a Métrica Use Case Points, PMBOK e RUP.</strong> Iberoamerican Journal of Industrial Engineering. 3. 249-264. 10.13084/2175-8018.v03n05a16. Disponível em: <a href="https://www.researchgate.net/publication/275561878_Processo_de_Estimativa_de_Software_com_a_Metrica_Use_Case_Points_PMBOK_e_RUP">https://www.researchgate.net/publication/275561878_Processo_de_Estimativa_de_Software_com_a_Metrica_Use_Case_Points_PMBOK_e_RUP</a></p>
+<p>[^4] Obilor, Njoku &amp; Onyekachi, Agbakwuru &amp; B.C, Amanze &amp; Njoku, Donatus. (2021). <strong>Constructive Cost Model II Metrics for Estimating Cost of Indigenous Software. International Journal of Advanced Science and Technology.</strong> 8. 2456-1908. 10.22161/ijaers.87.26. </p>
+<p>[^5] Boehm, B. W. (2010). <strong>Cost Models for Future Software Life Cycle Processes: COCOMO 2.0.</strong> Anals of Software Engineering Special Volume on Software Process and Product Measurement, Science Publishers, Amsterdam, Netherlands, 1(3), 45-60.</p>
+<h2 id="179-historico-de-revisao">1.7.9 Histórico de revisão</h2>
+<table>
+<thead>
+<tr>
+<th align="center">Data</th>
+<th align="center">Versão</th>
+<th align="center">Descrição</th>
+<th align="center">Autor(es)</th>
+<th align="center">Revisor(es)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">23/06/22</td>
+<td align="center">1.0</td>
+<td align="center">Adição de Introdução e Definição</td>
+<td align="center"><a href="https://github.com/ailtonaires">Ailton Aires</a></td>
+<td align="center"><a href="https://github.com/ailtonaires">Ailton Aires</a></td>
+</tr>
+<tr>
+<td align="center">26/06/22</td>
+<td align="center">1.1</td>
+<td align="center">Cálculo e Término do documento</td>
+<td align="center"><a href="https://github.com/ailtonaires">Ailton Aires</a></td>
+<td align="center"><a href="https://github.com/ailtonaires">Ailton Aires</a></td>
+</tr>
+<tr>
+<td align="center">26/06/22</td>
+<td align="center">1.2</td>
+<td align="center">Correção do cálculo, estilização e explicação de variavéis</td>
+<td align="center"><a href="https://github.com/laispa">Laís Portela</a></td>
+<td align="center"><a href="https://github.com/laispa">Laís Portela</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="18-rich-picture">1.8 Rich Picture</h2>
+<h3 id="181-introducao">1.8.1 Introdução</h3>
+<p align="justify">
+Um Rich Picture é um artefato utilizado a fim de demonstrar, através de um desenho, os elementos relacionados ao fluxo do processo descrito, que pode inclusive, vir a demonstrar problemas que devem ser solucionados. Neste desenho deve conter os principais elementos e relacionamentos, para auxiliar a representação do sistema.
+</p>
+
+<h3 id="182-versoes-do-rich-picture">1.8.2. Versões do Rich Picture</h3>
+<h4 id="21-ugor-marcilio-brandao-costa">2.1 Ugor Marcilio Brandão Costa</h4>
+<p><img alt="rich_picture_ugor" src="https://user-images.githubusercontent.com/51385738/175790334-b83ede24-005c-400c-9a43-f593242c8bef.jpeg" />
+ 
+<figcaption>Fonte: Próprio autor</figcaption>
+</p>
+<h4 id="22-bianca-sofia-brasil-de-oliveira">2.2 Bianca Sofia Brasil de Oliveira</h4>
+<p><img alt="rich_picture_bianca" src="https://user-images.githubusercontent.com/51385738/175790445-7633a499-1966-4434-8bd9-c9a2d203eb4f.jpeg" />
+ 
+<figcaption>Fonte: Próprio autor</figcaption>
+</p>
+<h4 id="23-douglas-da-silva-monteles">2.3 Douglas da Silva Monteles</h4>
+<p><img alt="rich_picture_douglas" src="https://user-images.githubusercontent.com/51385738/175790444-d83db203-bcdc-4d57-a520-426895ff1608.jpeg" />
+ 
+<figcaption>Fonte: Próprio autor</figcaption>
+</p>
+<h4 id="24-gabriel-costa-de-oliveira">2.4 Gabriel Costa de Oliveira</h4>
+<p><img alt="rich_picture_gabriel" src="https://user-images.githubusercontent.com/51385738/175790451-5c3efd05-cecb-4fd1-aada-4a1a554c5668.png" />
+ 
+<figcaption>Fonte: Próprio autor</figcaption>
+</p>
+<h4 id="25-eduardo-gurgel">2.5 Eduardo Gurgel</h4>
+<p><img alt="rich_picture_eduardo" src="https://user-images.githubusercontent.com/51385738/175790443-973df047-8a1e-4d9c-bdcd-16b19ccb1afd.png" />
+ 
+<figcaption>Fonte: Próprio autor</figcaption>
+</p>
+<h3 id="173-rich-picture-escolhido">1.7.3 Rich Picture Escolhido</h3>
+<p align="justify">
+  Após uma discussão sobre os rich pictures desenvolvidos pelo grupo, foi então selecionado o Rich Picture abaixo, onde foram feitas algumas alterações se comparado ao modelo proposto originalmente.
+</p>
+
+<h4 id="31-douglas-da-silva-monteles">3.1 Douglas da Silva Monteles</h4>
+<p><img alt="rich_picture_escolhido" src="https://user-images.githubusercontent.com/51385738/175790449-1f4d98e1-69df-4fb4-8ef2-a2f4d34981cc.png" /></p>
+<h2 id="184-referencias">1.8.4 Referências</h2>
+<blockquote>
+<p>MANK, Andrew; HOWARD, Steve. The Rich Picture: A Tool for Reasoning About Work Context. Oxford, 1998.</p>
+<p>REVADI, Chindy. CTEC2402 Rich Picture Guidelines. </p>
+</blockquote>
+<h2 id="19-lexico-ou-glossario">1.9 Léxico (ou Glossário)</h2>
+<h2 id="110-planos-de-risco-custo-e-tempo">1.10 Planos de Risco, Custo e Tempo</h2>
+<h2 id="20-versionamento">2.0 Versionamento</h2>
+<table>
+<thead>
+<tr>
+<th>Versão</th>
+<th>Data de modificação</th>
+<th>Descrição da modificação</th>
+<th>Autor(es)</th>
+<th>Revisor(es)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1.0</td>
+<td>25/06/2022</td>
+<td>Criação e adição do Mapa Mental</td>
+<td><a href="https://github.com/douglasmonteles">Douglas Monteles</a>, <a href="https://github.com/biancasofia">Bianca Sofia</a></td>
+<td><a href="https://github.com/EduardoGurgel">Eduardo Gurgel</a></td>
+</tr>
+<tr>
+<td>1.1</td>
+<td>25/06/2022</td>
+<td>Adição dos Rich Pictures</td>
+<td><a href="https://github.com/biancasofia">Bianca Sofia</a>, <a href="https://github.com/douglasmonteles">Douglas Monteles</a></td>
+<td><a href="https://github.com/EduardoGurgel">Eduardo Gurgel</a></td>
+</tr>
+<tr>
+<td>1.2</td>
+<td>25/06/2022</td>
+<td>Adição Design Sprint</td>
+<td><a href="https://github.com/EduardoGurgel">Eduardo Gurgel</a>, <a href="https://github.com/art1505">Arthur Talles</a></td>
+<td></td>
+</tr>
+<tr>
+<td>1.3</td>
+<td>26/06/2022</td>
+<td>Adição de informações complementares para o Design Sprint,Storyboard e Protótipo de baixa/média fidelidade</td>
+<td><a href="https://github.com/art1505">Arthur Talles</a></td>
+<td><a href="https://github.com/EduardoGurgel">Eduardo Gurgel</a></td>
+</tr>
+<tr>
+<td>1.4</td>
+<td>26/06/2022</td>
+<td>Criação e adição do Causa e efito</td>
+<td><a href="https://github.com/GabrielCostaDeOliveira">Gabriel Costa</a></td>
+<td></td>
+</tr>
+<tr>
+<td>1.5</td>
+<td>26/06/2022</td>
+<td>Complemento causa e efeito</td>
+<td><a href="https://github.com/k3vin-batista">Kevin Batista</a></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.16e2a7d4.min.js", "translations": {"clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "search.config.lang": "pt", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Buscar", "search.result.more.one": "Mais 1 nesta p\u00e1gina", "search.result.more.other": "Mais # nesta p\u00e1gina", "search.result.none": "Nenhum resultado encontrado", "search.result.one": "1 resultado encontrado", "search.result.other": "# resultados encontrados", "search.result.placeholder": "Digite para iniciar a busca", "search.result.term.missing": "Ausente", "select.version.title": "Selecione a vers\u00e3o"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.8492ddcf.min.js"></script>
+      
+        <script src="../../javascripts/mathjax.js"></script>
+      
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+    
+  </body>
+</html>

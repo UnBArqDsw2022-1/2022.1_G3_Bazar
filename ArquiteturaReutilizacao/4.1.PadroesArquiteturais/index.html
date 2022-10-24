@@ -1,0 +1,1661 @@
+
+<!doctype html>
+<html lang="pt" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      <link rel="icon" href="../../assets/favicon.svg">
+      <meta name="generator" content="mkdocs-1.4.1, mkdocs-material-8.5.7">
+    
+    
+      
+        <title>4.1. Módulo Estilos e Padrões Arquiteturais - 2022.1_G3_Bazar</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.20d9efc8.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.cbb835fc.min.css">
+        
+          
+          
+          <meta name="theme-color" content="">
+        
+      
+      
+
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,700,700i%7Csans-serif:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Montserrat";--md-code-font:"sans-serif"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/styles.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="#fff" data-md-color-accent="#0b4d9b">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#41-modulo-estilos-e-padroes-arquiteturais" class="md-skip">
+          Ir para o conteúdo
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabeçalho">
+    <a href="../.." title="2022.1_G3_Bazar" class="md-header__button md-logo" aria-label="2022.1_G3_Bazar" data-md-component="logo">
+      
+  <img src="../../assets/favicon.svg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            2022.1_G3_Bazar
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              4.1. Módulo Estilos e Padrões Arquiteturais
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Buscar" placeholder="Buscar" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Pesquisar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpar" aria-label="Limpar" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando a pesquisa
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://unbarqdsw2022-1.github.io/2022.1_G3_Bazar/" title="Ir ao repositório" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    2022.1_G3_Bazar
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navegação" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="2022.1_G3_Bazar" class="md-nav__button md-logo" aria-label="2022.1_G3_Bazar" data-md-component="logo">
+      
+  <img src="../../assets/favicon.svg" alt="logo">
+
+    </a>
+    2022.1_G3_Bazar
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://unbarqdsw2022-1.github.io/2022.1_G3_Bazar/" title="Ir ao repositório" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    2022.1_G3_Bazar
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        Início
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2">
+          1.Base
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="1.Base" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          1.Base
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_1" type="checkbox" id="__nav_2_1" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_1">
+          1.1. Módulo Projeto Não Orientado a Abordagens Específicas
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="1.1. Módulo Projeto Não Orientado a Abordagens Específicas" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_1">
+          <span class="md-nav__icon md-icon"></span>
+          1.1. Módulo Projeto Não Orientado a Abordagens Específicas
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Base/1.1.DesignSprint/" class="md-nav__link">
+        Design Sprint
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Base/1.1.5W2H/" class="md-nav__link">
+        5W2H
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Base/1.1.MapaMental/" class="md-nav__link">
+        Mapa Mental
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Base/1.1.Diagrama-Causa-Efeito/" class="md-nav__link">
+        Diagrama de Causa-Efeito
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Base/1.1.Custo-Tempo/" class="md-nav__link">
+        Custo e Tempo
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Base/1.1.RichPicture/" class="md-nav__link">
+        Rich Picture
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Base/1.1.Lexico/" class="md-nav__link">
+        Léxico
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Base/1.1.Planos-de-Risco/" class="md-nav__link">
+        Plano de Risco
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Base/1.2.ProcessosMetodologiasAbordagens/" class="md-nav__link">
+        1.2. Módulo Processos/Metodologias/Abordagens
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Base/1.3.IniciativasExtras/" class="md-nav__link">
+        1.3. Iniciativas Extras - Base
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Base/1.4.ParticipacoesBase/" class="md-nav__link">
+        1.4. Participações - Base
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3">
+          2.Modelagem
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="2.Modelagem" data-md-level="1">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          2.Modelagem
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_1" type="checkbox" id="__nav_3_1" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_1">
+          2.1.1.Notação UML – Diagramas Estáticos
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="2.1.1.Notação UML – Diagramas Estáticos" data-md-level="2">
+        <label class="md-nav__title" for="__nav_3_1">
+          <span class="md-nav__icon md-icon"></span>
+          2.1.1.Notação UML – Diagramas Estáticos
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Modelagem/2.1.1.DiagramaDeClasses/" class="md-nav__link">
+        Diagrama de Classes
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Modelagem/2.1.1.DiagramaComponentes/" class="md-nav__link">
+        Diagrama de Componentes
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Modelagem/2.1.1.DiagramaDeImplantacao/" class="md-nav__link">
+        Diagrama de Implantação
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Modelagem/2.1.1.DiagramaPacotes/" class="md-nav__link">
+        Diagrama de Pacotes
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_2" type="checkbox" id="__nav_3_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_2">
+          2.1.2. Notação UML – Diagramas Dinâmicos
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="2.1.2. Notação UML – Diagramas Dinâmicos" data-md-level="2">
+        <label class="md-nav__title" for="__nav_3_2">
+          <span class="md-nav__icon md-icon"></span>
+          2.1.2. Notação UML – Diagramas Dinâmicos
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Modelagem/2.1.2.DiagramaDeSequencia/" class="md-nav__link">
+        Diagrama de Sequência
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Modelagem/2.1.2.DiagramaEstados/" class="md-nav__link">
+        Diagrama de Estados
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Modelagem/2.1.2.DiagramaAtividades/" class="md-nav__link">
+        Diagrama de Atividades
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_3" type="checkbox" id="__nav_3_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_3">
+          2.1.3 Modelagem Ágil
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="2.1.3 Modelagem Ágil" data-md-level="2">
+        <label class="md-nav__title" for="__nav_3_3">
+          <span class="md-nav__icon md-icon"></span>
+          2.1.3 Modelagem Ágil
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Modelagem/2.1.3.Backlog/" class="md-nav__link">
+        Product Backlog
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Modelagem/2.2.IniciativasExtras/" class="md-nav__link">
+        2.2. Iniciativas Extras - Modelagem
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Modelagem/2.3.ParticipacoesModelagem/" class="md-nav__link">
+        2.3. Participações - Modelagem
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="41-modulo-estilos-e-padroes-arquiteturais">4.1. Módulo Estilos e Padrões Arquiteturais</h1>
+<h1 id="introducao">Introdução</h1>
+<p>Na arquitetura de software temos documentações que facilitam o entendimento e desenvolvimento de um aplicativo. Nesses documentos existe diversos diagramas que especificam uma parte de sua arquitetura: visão lógica, visão de implementação, visão de processo, visão de implatação e a visão dos casos de uso. Esse documento mostrará a visão arquitetural do nosso aplicativo WebBazar</p>
+<h1 id="proposito">Propósito</h1>
+<p>O documento tem a finalidade de descrever as características gerais da arquitetura do projeto. Consequentemente, serão descritas  as decisões tomadas pela equipe ao longo do projeto, e também os padrões adotados no desenvolvimento do WEBazar.</p>
+<h1 id="escopo">Escopo</h1>
+<p>Nesse documento são apresentadas as visões gerais de arquitetura, ele será composto por representações arquitetônicas e pelo dicionário de dados. Além disso, o objetivo desse documento é descrever tecnicamente as soluções adotadas, com fácil manutenibilidade e padrões adotados no desenvolvimento para facilitar o entendimento do projeto como um todo.</p>
+<h1 id="representacao-arquitetural">Representação Arquitetural</h1>
+<p>Aqui são apresentadas as tecnologias envolvidas na aplicação além de realizar um modelo que representa os serviços implementados e as interações estabelecidas entre esses serviços, bem como a natureza desses serviços. </p>
+<h2 id="tecnologias">Tecnologias</h2>
+<h3 id="front-end">Front-End</h3>
+<ul>
+<li>Angular 
+Angular (comumente referido como "Angular 2+" ou "Angular 2") é uma plataforma de aplicações web de código-fonte aberto e front-end baseado em TypeScript liderado pela Equipe Angular do Google e por uma comunidade de indivíduos e corporações. Angular é uma reescrita completa do AngularJS, feito pela mesma equipe que o construiu.</li>
+</ul>
+<h3 id="back-end">Back-End</h3>
+<ul>
+<li>Spring 
+O Spring é um framework Java criado com o objetivo de facilitar o desenvolvimento de aplicações, explorando, para isso, os conceitos de Inversão de Controle e Injeção de Dependências. Dessa forma, ao adotá-lo, temos à nossa disposição uma tecnologia que nos fornece não apenas recursos necessários à grande parte das aplicações, como módulos para persistência de dados, integração, segurança, testes, desenvolvimento web, como também um conceito a seguir que nos permite criar soluções menos acopladas, mais coesas e, consequentemente, mais fáceis de compreender e manter.</li>
+</ul>
+<h3 id="banco-de-dados">Banco de Dados</h3>
+<ul>
+<li>PostgreSQL
+PostgreSQL é um SGBD(Sistema Gerenciador de Banco de Dados) relacional, desenvolvido como um projeto de código aberto, que já conta com mais de 30 anos de desenvolvimento ativo. É um sistema muito conhecido por sua forte reputação de confiabilidade e recursos de desempenho.</li>
+</ul>
+<h3 id="outros">Outros</h3>
+<ul>
+<li>
+<p>Heroku
+Trata-se de uma PaaS (Plataforma como um Serviço) que permite hospedagem, configuração, testagem e publicação de projetos virtuais na nuvem. Entre outras funções, ele facilita o trabalho dos desenvolvedores na configuração da infraestrutura para o deploy, ou seja, a implantação das aplicações.</p>
+</li>
+<li>
+<p>Netlify
+A Netlify é uma empresa de computação em nuvem remota que oferece uma plataforma de desenvolvimento que inclui serviços de criação, implantação e back-end sem servidor para aplicativos da Web e sites dinâmicos.</p>
+</li>
+</ul>
+<h2 id="diagrama-de-contexto">Diagrama de Contexto</h2>
+<p>O Diagrama de contexto representa de uma forma de mais alto nível a comunicação estabelecida entre as tecnologias, bem como o projeto em um contexto geral.</p>
+<figure>
+  <figcaption style="text-align: center !important">
+    Figura 1: Diagrama do Diagrama de Cotexto.
+  </figcaption>
+
+  ![Diagrama de Contexto](../img/Diagramas/DiagramaArquitetura%20.png)
+
+  <figcaption style="text-align: center !important">
+    Fonte: Próprio autor<br>
+
+  </figcaption>
+</figure>
+
+<p># Objetivos Arquiteturais e Restrições</p>
+<table>
+<thead>
+<tr>
+<th><strong>Objetivo</strong></th>
+<th><strong>Descrição</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Segurança</td>
+<td>A aplicação deve tratar de forma de segura os dados sensíveis dos usuários.</td>
+</tr>
+<tr>
+<td>Usabilidade</td>
+<td>A aplicação deve ser intuitiva e interativa.</td>
+</tr>
+<tr>
+<td>Deploy</td>
+<td>A aplicação deve possuir deploy automatizado</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th><strong>Restrição</strong></th>
+<th><strong>Descrição</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Conectividade</td>
+<td>É necessário ter conexão com internet para acessar a aplicação</td>
+</tr>
+<tr>
+<td>Linguagem</td>
+<td>A linguagem padrão da aplicação é a Língua Portuguesa do Brasil</td>
+</tr>
+<tr>
+<td>Plataforma</td>
+<td>É necessário o uso de um navegador tanto em dispositivos desktop, quanto mobile</td>
+</tr>
+<tr>
+<td>Público</td>
+<td>Brasileiros que desejam adquirir e/ou realizar vendas de produtos.</td>
+</tr>
+<tr>
+<td>Prazo</td>
+<td>A aplicação há de ser finalizada até o fim da disciplina</td>
+</tr>
+<tr>
+<td>Equipe</td>
+<td>A equipe possui 10 integrantes</td>
+</tr>
+</tbody>
+</table>
+<h1 id="visao-logica">Visão Lógica</h1>
+<p>A visão lógica tem o objetivo de fornecer uma base para compreender a estrutura, a organização do design do sistema e representar a visão conceitual do projeto por meio de camadas. Existe somente uma visão lógica do sistema que ilustra as principais realizações de caso de uso, subsistemas, pacotes e classes. Também pode ser considerada a visão arquitetural com as classes de design mais importantes.</p>
+<p>A partir disso, elaboramos os diagrama de classes e também o de pacotes para nossa aplicação que foi desenvolvida em Java e no ecossistema Spring.</p>
+<h2 id="diagrama-de-classes">Diagrama de Classes</h2>
+<figure>
+  <figcaption style="text-align: center !important">
+    Diagrama de classes v2
+  </figcaption>
+
+  ![Diagrama de Classes](../img/classes_v2.png)
+
+  <figcaption style="text-align: center !important">
+    Fonte: Próprio autor<br>
+
+  </figcaption>
+</figure>
+
+<h2 id="diagrama-de-pacotes">Diagrama de Pacotes</h2>
+<figure>
+  <figcaption style="text-align: center !important">
+    Diagrama de classes Pacotes v2
+  </figcaption>
+
+  ![Diagrama de Classes](../img/Diagramas/diagrama-de-pacote-compra.png)
+
+  <figcaption style="text-align: center !important">
+    Fonte: Próprio autor<br>
+
+  </figcaption>
+</figure>
+
+<h1 id="visao-de-processos">Visão de processos</h1>
+<h2 id="diagrama-de-colaboracaocomunicacao">Diagrama de Colaboração/Comunicação</h2>
+<figure>
+  <figcaption style="text-align: center !important">
+    Diagrama de Comunicação do Projeto 
+  </figcaption>
+
+  ![Diagrama de Classes - Interfaces](../img/Diagramas/diagramaColaboracao.jpg)
+
+  <figcaption style="text-align: center !important">
+    Fonte: Próprio autor
+  </figcaption>
+</figure>
+
+<h2 id="diagrama-de-atividades">Diagrama de Atividades</h2>
+<h4 id="comprar-produtos">Comprar Produtos</h4>
+<p>Representa o processo de compra de produtos dentro da plataforma. Faz referência à US01,US02,US08,US09,US11,US12,US13 e US14.</p>
+<figure>
+
+  ![Comprar Produtos](../img/Diagramas/DiagramasDeAtividades/DiagramaCompraProd.png)
+  <figcaption style="text-align: justify !important">
+    Fonte: Próprio autor
+  </figcaption>
+</figure>
+
+<h4 id="avaliar-compra">Avaliar compra</h4>
+<p>Representa o processo de avaliação da compra de produtos dentro da plataforma. Faz referência à US07.</p>
+<figure>
+
+  ![Avaliar Produtos](../img/Diagramas/DiagramasDeAtividades/DiagramaAvalCompra.png)
+  <figcaption style="text-align: justify !important">
+    Fonte: Próprio autor
+  </figcaption>
+</figure>
+
+<h4 id="informar-se-com-um-vendedor">Informar-se com um vendedor</h4>
+<p>Representa o processo de comunicação com os responsáveis pela venda a fim de resolver eventuais problemas. Faz referência à US06.</p>
+<figure>
+
+  ![Info](../img/Diagramas/DiagramasDeAtividades/DiagramInfoVend.png)
+  <figcaption style="text-align: justify !important">
+    Fonte: Próprio autor
+  </figcaption>
+</figure>
+
+<h3 id="2122-diagramacao-relativa-a-webazar-funcionarios">2.1.2.2 Diagramação relativa à WEBazar (funcionários)</h3>
+<h4 id="gerenciar-estoque">Gerenciar Estoque</h4>
+<p>Representa o processo no qual o funcionário avalia a presença  ou não de produtos em estoque para, assim, realizar o cadastro destes ou torná-los indisponíveis na plataforma. Faz referência à US20 e US21.</p>
+<figure>
+
+  ![Gerencia](../img/Diagramas/DiagramasDeAtividades/DiagramaGerEstoque.png)
+  <figcaption style="text-align: justify !important">
+    Fonte: Próprio autor
+  </figcaption>
+</figure>
+
+<h3 id="2123-diagramacao-nao-especifica">2.1.2.3 Diagramação não específica</h3>
+<h4 id="realizar-cadastro">Realizar cadastro</h4>
+<p>Representa o processo no qual o cliente/funcionário realiza seu cadastro na plataforma. Faz referência à US01.</p>
+<figure>
+
+  ![Cadastro](../img/Diagramas/DiagramasDeAtividades/diagramaCadastro.png)
+  <figcaption style="text-align: justify !important">
+    Fonte: Próprio autor
+  </figcaption>
+</figure>
+
+<h4 id="realizar-login">Realizar Login</h4>
+<p>Representa o processo no qual o cliente/funcionário realiza seu login na plataforma. </p>
+<figure>
+
+  ![Cadastro](../img/Diagramas/DiagramasDeAtividades/DiagramaLogin.png)
+  <figcaption style="text-align: justify !important">
+    Fonte: Próprio autor
+  </figcaption>
+</figure>
+
+<h4 id="gerenciar-perfil">Gerenciar Perfil</h4>
+<p>Representa o processo no qual o cliente/funcionário realiza o gerenciamento de seu perfil na plataforma. Faz referência à US03 e US04.</p>
+<figure>
+
+  ![Cadastro](../img/Diagramas/DiagramasDeAtividades/DiagramaGerPerfil.png)
+
+  <figcaption style="text-align: justify !important">
+    Fonte: Próprio autor
+  </figcaption>
+</figure>
+
+<h2 id="diagramas-de-sequencia">Diagramas de Sequência</h2>
+<h3 id="rotinas-de-gerenciamento-de-dados">Rotinas de gerenciamento de dados</h3>
+<figure>
+
+  ![Diagrama de Sequencia - Interfaces](../img/Diagramas/DiagramaDeSequencia_1.png)
+
+  <figcaption style="text-align: center !important">
+    Fonte: Próprio autor
+  </figcaption>
+</figure>
+
+<h3 id="rotinas-de-gerenciamento-do-pedido-usuario-e-vendedor">Rotinas de gerenciamento do pedido (usuário e vendedor)</h3>
+<figure>
+
+  ![Diagrama de Sequencia - Interfaces](../img/Diagramas/DiagramaDeSequencia_2.png)
+  <figcaption style="text-align: center !important">
+    Fonte: Próprio autor
+  </figcaption>
+</figure>
+
+<h3 id="rotinas-de-gerenciamento-de-produto">Rotinas de gerenciamento de produto</h3>
+<figure>
+
+  ![Diagrama de Sequencia - Interfaces](../img/Diagramas/DiagramaDeSequencia_3.png)
+  <figcaption style="text-align: center !important">
+    Fonte: Próprio autor
+  </figcaption>
+</figure>
+
+<h1 id="visao-de-implementacao">Visão de Implementação</h1>
+<p>Esta visão diz respeito a uma perspectiva geral relacionada ao processo de implementação do produto de software, bem como sua organização em termos de módulos (compostos essencialmente por pacotes e camadas).
+Pacotes e classes, presentes na Visão Lógica, podem ser eventualmente alocados aos pacotes e módulos da Visão de Implementação. Para isso, devem ser devidamnente descritos e tratam-se de um subconjunto do modelo de implementação.</p>
+<h2 id="diagrama-de-componentes">Diagrama de Componentes</h2>
+<p>Este diagrama apresenta uma visão estática de como o sistema está implementado e quais são os seus módulos de software: componentes.</p>
+<p>Desta forma, este tipo de diagramação é extremamente importante para se construir e entender o processo de implementação.</p>
+<p>Segue abaixo o Diagrama de Componentes do WEBazar: </p>
+<figure>
+
+  ![DiagramaComponentes](../img/Diagramas/DiagramaDeComponentes.png)
+
+  <figcaption style="text-align: justify !important">
+    Fonte: Próprio autor
+  </figcaption>
+</figure>
+
+<h1 id="visao-de-implantacao">Visão de Implantação</h1>
+<p>O diagrama de implementação possui a estrutura de camadas, em que na aplicação Webzar é dividida em frontend e backend, no qual as requisições são feitas ao backend e realiza as atividades necessárias consultando a base de dados. </p>
+<p>A visão de implantação (ou visão física) contém o mapaeamento entre o software e o hardware, descrevendo como elas interagem entre si.</p>
+<h2 id="diagrama-de-implantacao">Diagrama de implantação</h2>
+<figure>
+  <figcaption style="text-align: center !important">
+    Figura 1: Diagrama Entidade-Relacionamento (DER)
+  </figcaption>
+
+  ![Diagrama de implantação](../img/Diagramas/DiagramaDeImplantacao.png)
+
+  <figcaption style="text-align: center !important">
+    Fonte: Próprio autor<br>
+    <a href="../../docs/img/Diagramas/DiagramaEntidadeRelacionamento.brM3" download>Baixe o arquivo aqui</a> e abra no BrModelo
+  </figcaption>
+</figure>
+
+<h1 id="visao-de-casos-de-uso">Visão de Casos de Uso</h1>
+<p>Nessa parte, a visão de casos de uso são utilizados para a modelagem da visão estática do sistema, em que é uma representação visual mais aproximada do usuário. Essa visão proporciona suporte principalmente para o comportamento de um sistema.</p>
+<figure>
+  <figcaption style="text-align: center !important">
+    Figura 2: Visão de Casos de Uso
+  </figcaption>
+
+  <iframe 
+    frameborder="1"
+    style="width:100%;height:920px;" 
+    src="https://viewer.diagrams.net/?tags=%7B%7D&highlight=0000ff&edit=_blank&layers=1&nav=1&title=casos%20de%20uso#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1nroiZIAaX1w_5ZCdDHx1tlXEl39wIbLK%26export%3Ddownload"
+  ></iframe>
+
+  <figcaption style="text-align: center !important">
+    Fonte: Próprio autor
+  </figcaption>
+</figure>
+
+<h1 id="visao-de-dados">Visão de Dados</h1>
+<h2 id="diagrama-entidade-relacionamento-de-r">Diagrama Entidade Relacionamento (DE-R)</h2>
+<figure>
+  <figcaption style="text-align: center !important">
+    Figura 1: Diagrama Entidade-Relacionamento (DER)
+  </figcaption>
+
+  ![Diagrama DER](../img/Diagramas/DER2.png)
+
+  <figcaption style="text-align: center !important">
+    Fonte: Próprio autor<br>
+    <a href="../../docs/img/Diagramas/DiagramaEntidadeRelacionamento.brM3" download>Baixe o arquivo aqui</a> e abra no BrModelo
+  </figcaption>
+</figure>
+
+<h2 id="diagrama-logico-de-dados-dld">Diagrama Lógico de Dados (DLD)</h2>
+<figure>
+  <figcaption style="text-align: center !important">
+    Figura 2: Diagrama Lógico de Dados (DLD)
+  </figcaption>
+
+  ![Diagrama DLD](../img/Diagramas/DLD2.png)
+
+  <figcaption style="text-align: center !important">
+    Fonte: Próprio autor<br>
+    <a href="../../docs/img/Diagramas/DiagramaLogicoDados.brM3" download>Baixe o arquivo aqui</a> e abra no BrModelo
+  </figcaption>
+</figure>
+
+<h2 id="dicionario-de-dados">Dicionário de Dados</h2>
+<h3 id="usuario">USUARIO</h3>
+<table>
+<thead>
+<tr>
+<th align="center">Atributos</th>
+<th align="center">Tipo</th>
+<th align="center">Restrição</th>
+<th align="center">Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">id</td>
+<td align="center">int</td>
+<td align="center">Chave primária</td>
+<td align="center">Identificador único do usuário</td>
+</tr>
+<tr>
+<td align="center">nome</td>
+<td align="center">varchar</td>
+<td align="center">Obrigatório</td>
+<td align="center">Nome do usuário</td>
+</tr>
+<tr>
+<td align="center">email</td>
+<td align="center">varchar</td>
+<td align="center">Obrigatório</td>
+<td align="center">Email que será usado no login</td>
+</tr>
+<tr>
+<td align="center">senha</td>
+<td align="center">varchar</td>
+<td align="center">Obrigatório</td>
+<td align="center">Senha que será usada no login</td>
+</tr>
+<tr>
+<td align="center">cpf</td>
+<td align="center">bigint</td>
+<td align="center"></td>
+<td align="center">CPF do usuário</td>
+</tr>
+</tbody>
+</table>
+<h3 id="papel">PAPEL</h3>
+<table>
+<thead>
+<tr>
+<th align="center">Atributos</th>
+<th align="center">Tipo</th>
+<th align="center">Restrição</th>
+<th align="center">Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">id</td>
+<td align="center">int</td>
+<td align="center">Chave primária</td>
+<td align="center">Identificador único do papel</td>
+</tr>
+<tr>
+<td align="center">autoridade</td>
+<td align="center">varchar</td>
+<td align="center">Obrigatório</td>
+<td align="center">Representa autoridade dentro do site</td>
+</tr>
+</tbody>
+</table>
+<h3 id="telefone">TELEFONE</h3>
+<table>
+<thead>
+<tr>
+<th align="center">Atributos</th>
+<th align="center">Tipo</th>
+<th align="center">Restrição</th>
+<th align="center">Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">id</td>
+<td align="center">int</td>
+<td align="center">Chave primária</td>
+<td align="center">Identificador único do telefone</td>
+</tr>
+<tr>
+<td align="center">numeroTelefone</td>
+<td align="center">bigint</td>
+<td align="center"></td>
+<td align="center">Número de telefone</td>
+</tr>
+</tbody>
+</table>
+<h3 id="endereco">ENDERECO</h3>
+<table>
+<thead>
+<tr>
+<th align="center">Atributos</th>
+<th align="center">Tipo</th>
+<th align="center">Restrição</th>
+<th align="center">Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">id</td>
+<td align="center">INT</td>
+<td align="center">Chave primária</td>
+<td align="center">Identificador único do endereço</td>
+</tr>
+<tr>
+<td align="center">cep</td>
+<td align="center">bigint</td>
+<td align="center">Obrigatório</td>
+<td align="center">cep do usuário</td>
+</tr>
+<tr>
+<td align="center">numero</td>
+<td align="center">int</td>
+<td align="center">Obrigatório</td>
+<td align="center">número do endereço do usuário</td>
+</tr>
+<tr>
+<td align="center">bairro</td>
+<td align="center">varchar</td>
+<td align="center">Obrigatório</td>
+<td align="center">bairro do usuário</td>
+</tr>
+<tr>
+<td align="center">complemento</td>
+<td align="center">varchar</td>
+<td align="center"></td>
+<td align="center">Complemento do endereço</td>
+</tr>
+<tr>
+<td align="center">idCidade</td>
+<td align="center">int</td>
+<td align="center"></td>
+<td align="center">Representa a chave estrangeira de cidade</td>
+</tr>
+</tbody>
+</table>
+<h3 id="cidade">CIDADE</h3>
+<table>
+<thead>
+<tr>
+<th align="center">Atributos</th>
+<th align="center">Tipo</th>
+<th align="center">Restrição</th>
+<th align="center">Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">id</td>
+<td align="center">int</td>
+<td align="center">Chave primária</td>
+<td align="center">Identificador único da cidade</td>
+</tr>
+<tr>
+<td align="center">nome</td>
+<td align="center">varchar</td>
+<td align="center"></td>
+<td align="center">Nome da cidade</td>
+</tr>
+<tr>
+<td align="center">idEstado</td>
+<td align="center">int</td>
+<td align="center"></td>
+<td align="center">Chave estrangeira de estado</td>
+</tr>
+</tbody>
+</table>
+<h3 id="estado">ESTADO</h3>
+<table>
+<thead>
+<tr>
+<th align="center">Atributos</th>
+<th align="center">Tipo</th>
+<th align="center">Restrição</th>
+<th align="center">Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">id</td>
+<td align="center">int</td>
+<td align="center">Chave primária</td>
+<td align="center">Identificador único de estado</td>
+</tr>
+<tr>
+<td align="center">nome</td>
+<td align="center">varchar</td>
+<td align="center"></td>
+<td align="center">Nome do estado</td>
+</tr>
+</tbody>
+</table>
+<h3 id="produto">PRODUTO</h3>
+<table>
+<thead>
+<tr>
+<th align="center">Atributos</th>
+<th align="center">Tipo</th>
+<th align="center">Restrição</th>
+<th align="center">Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">id</td>
+<td align="center">int</td>
+<td align="center">Chave primária</td>
+<td align="center">Identificador único de produto</td>
+</tr>
+<tr>
+<td align="center">nome</td>
+<td align="center">varchar</td>
+<td align="center">Obrigatório</td>
+<td align="center">Nome do produto</td>
+</tr>
+<tr>
+<td align="center">preco</td>
+<td align="center">float</td>
+<td align="center">Obrigatório</td>
+<td align="center">Preço do produto</td>
+</tr>
+</tbody>
+</table>
+<h3 id="imagem">IMAGEM</h3>
+<table>
+<thead>
+<tr>
+<th align="center">Atributos</th>
+<th align="center">Tipo</th>
+<th align="center">Restrição</th>
+<th align="center">Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">imagemUrl</td>
+<td align="center">varchar</td>
+<td align="center"></td>
+<td align="center">URL da imagem</td>
+</tr>
+<tr>
+<td align="center">idProduto</td>
+<td align="center">int</td>
+<td align="center">Obrigatório</td>
+<td align="center">Chave estrangeira de produto</td>
+</tr>
+</tbody>
+</table>
+<h3 id="categoria">CATEGORIA</h3>
+<table>
+<thead>
+<tr>
+<th align="center">Atributos</th>
+<th align="center">Tipo</th>
+<th align="center">Restrição</th>
+<th align="center">Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">id</td>
+<td align="center">int</td>
+<td align="center">Chave primária</td>
+<td align="center">Identificador único de estado</td>
+</tr>
+<tr>
+<td align="center">nome</td>
+<td align="center">varchar</td>
+<td align="center"></td>
+<td align="center">Nome da categoria</td>
+</tr>
+</tbody>
+</table>
+<h3 id="pedido">PEDIDO</h3>
+<table>
+<thead>
+<tr>
+<th align="center">Atributos</th>
+<th align="center">Tipo</th>
+<th align="center">Restrição</th>
+<th align="center">Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">id</td>
+<td align="center">int</td>
+<td align="center">Chave primária</td>
+<td align="center">Identificador único de pedido</td>
+</tr>
+<tr>
+<td align="center">data</td>
+<td align="center">date</td>
+<td align="center">Obrigatório</td>
+<td align="center">Data do pedido</td>
+</tr>
+<tr>
+<td align="center">idUsuario</td>
+<td align="center">date</td>
+<td align="center">Obrigatório</td>
+<td align="center">Data do pedido</td>
+</tr>
+</tbody>
+</table>
+<h3 id="itempedido">ITEMPEDIDO</h3>
+<table>
+<thead>
+<tr>
+<th align="center">Atributos</th>
+<th align="center">Tipo</th>
+<th align="center">Restrição</th>
+<th align="center">Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">quantidade</td>
+<td align="center">int</td>
+<td align="center">Obrigatório</td>
+<td align="center">Quantidade do item</td>
+</tr>
+<tr>
+<td align="center">preco</td>
+<td align="center">float</td>
+<td align="center">Obrigatório</td>
+<td align="center">Preço do item</td>
+</tr>
+<tr>
+<td align="center">desconto</td>
+<td align="center">float</td>
+<td align="center"></td>
+<td align="center">Desconto em itens</td>
+</tr>
+<tr>
+<td align="center">idProduto</td>
+<td align="center">int</td>
+<td align="center">Obrigatório</td>
+<td align="center">Chave estrangeira do Produto</td>
+</tr>
+<tr>
+<td align="center">idPedido</td>
+<td align="center">int</td>
+<td align="center">Obrigatório</td>
+<td align="center">Chave estrangeira do Pedido</td>
+</tr>
+</tbody>
+</table>
+<h3 id="pagamento">PAGAMENTO</h3>
+<table>
+<thead>
+<tr>
+<th align="center">Atributos</th>
+<th align="center">Tipo</th>
+<th align="center">Restrição</th>
+<th align="center">Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">id</td>
+<td align="center">int</td>
+<td align="center">Obrigatório</td>
+<td align="center">Quantidade do item</td>
+</tr>
+<tr>
+<td align="center">statusPagamento</td>
+<td align="center">ENUM('Pendente', 'Pago')</td>
+<td align="center">Obrigatório</td>
+<td align="center">Status do pagamento do pedido</td>
+</tr>
+<tr>
+<td align="center">idPedido</td>
+<td align="center">int</td>
+<td align="center">Obrigatório</td>
+<td align="center">Chave estrangeira de pedido</td>
+</tr>
+</tbody>
+</table>
+<h3 id="pagamentopix">PAGAMENTOPIX</h3>
+<table>
+<thead>
+<tr>
+<th align="center">Atributos</th>
+<th align="center">Tipo</th>
+<th align="center">Restrição</th>
+<th align="center">Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">chavePix</td>
+<td align="center">varchar</td>
+<td align="center">Obrigatório</td>
+<td align="center">Chave pix do pagador</td>
+</tr>
+<tr>
+<td align="center">idPagamento</td>
+<td align="center">int</td>
+<td align="center">Obrigatório</td>
+<td align="center">Chave estrangeira de pagamento</td>
+</tr>
+<tr>
+<td align="center">data</td>
+<td align="center">date</td>
+<td align="center">Obrigatório</td>
+<td align="center">data do pagamento</td>
+</tr>
+<tr>
+<td align="center">nomePagador</td>
+<td align="center">varchar</td>
+<td align="center">Obrigatório</td>
+<td align="center">Nome do pagador</td>
+</tr>
+</tbody>
+</table>
+<h3 id="pagamentodinheiro">PAGAMENTODINHEIRO</h3>
+<table>
+<thead>
+<tr>
+<th align="center">Atributos</th>
+<th align="center">Tipo</th>
+<th align="center">Restrição</th>
+<th align="center">Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">troco</td>
+<td align="center">float</td>
+<td align="center"></td>
+<td align="center">Troco dado pelo vendedor na compra</td>
+</tr>
+<tr>
+<td align="center">idPagamento</td>
+<td align="center">int</td>
+<td align="center">Obrigatório</td>
+<td align="center">Chave estrangeira de pagamento</td>
+</tr>
+<tr>
+<td align="center">data</td>
+<td align="center">date</td>
+<td align="center">Obrigatório</td>
+<td align="center">data do pagamento</td>
+</tr>
+<tr>
+<td align="center">nomePagador</td>
+<td align="center">varchar</td>
+<td align="center"></td>
+<td align="center">Nome do pagador</td>
+</tr>
+</tbody>
+</table>
+<h2 id="versionamento">Versionamento</h2>
+<table>
+<thead>
+<tr>
+<th align="center">Data</th>
+<th align="center">Versão</th>
+<th align="center">Descrição</th>
+<th align="center">Autor(es)</th>
+<th align="center">Revisor(es)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">05/09/22</td>
+<td align="center">1.0</td>
+<td align="center">Criação do Documento e adição de visão de dados</td>
+<td align="center"><a href="https://github.com/biancasofia">Bianca Sofia</a>, <a href="htts://github.com/ubrando">Ugor</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">05/09/22</td>
+<td align="center">1.1</td>
+<td align="center">Criação de dicionário de dados</td>
+<td align="center"><a href="https://github.com/biancasofia">Bianca Sofia</a>, <a href="htts://github.com/GabrielCostaDeOliveira">Gabriel</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">08/09/22</td>
+<td align="center">1.2</td>
+<td align="center">Adição de visão lógica</td>
+<td align="center"><a href="https://github.com/biancasofia">Bianca Sofia</a>, <a href="https://github.com/laispa">Laís Portela</a>, <a href="https://github.com/DouglasMonteles">Douglas</a>, <a href="https://github.com/ubrando">Ugor</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">08/09/22</td>
+<td align="center">1.3</td>
+<td align="center">Adição de visão de processos</td>
+<td align="center"><a href="https://github.com/biancasofia">Bianca Sofia</a>, <a href="https://github.com/art1505">Arthur Talles</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">08/09/22</td>
+<td align="center">1.4</td>
+<td align="center">Introdução e novo diagrama de pacotes</td>
+<td align="center"><a href="https://github.com/laispa">Laís Portela</a>, <a href="https://github.com/EduardoGurgel">Eduardo</a> e <a href="https://github.com/iagoomr">Iago</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">09/09/22</td>
+<td align="center">1.5</td>
+<td align="center">Visão da implantação</td>
+<td align="center"><a href="https://github.com/k3vin-batista">Kevin</a> e <a href="https://github.com/iagoomr">Iago</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">09/09/22</td>
+<td align="center">1.6</td>
+<td align="center">Adição Representação Arquitetural, Restrções e Objetivos</td>
+<td align="center"><a href="htts://github.com/GabrielCostaDeOliveira">Gabriel</a>, <a href="htts://github.com/ubrando">Ugor</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">09/09/22</td>
+<td align="center">1.7</td>
+<td align="center">Adição da primeira versão da Visão de Implementação</td>
+<td align="center"><a href="https://github.com/art1505">Arthur Talles</a>, <a href="https://github.com/iagoomr">Iago</a> e <a href="https://github.com/EduardoGurgel">Eduardo</a></td>
+<td align="center"></td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.16e2a7d4.min.js", "translations": {"clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "search.config.lang": "pt", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Buscar", "search.result.more.one": "Mais 1 nesta p\u00e1gina", "search.result.more.other": "Mais # nesta p\u00e1gina", "search.result.none": "Nenhum resultado encontrado", "search.result.one": "1 resultado encontrado", "search.result.other": "# resultados encontrados", "search.result.placeholder": "Digite para iniciar a busca", "search.result.term.missing": "Ausente", "select.version.title": "Selecione a vers\u00e3o"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.8492ddcf.min.js"></script>
+      
+        <script src="../../javascripts/mathjax.js"></script>
+      
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+    
+  </body>
+</html>

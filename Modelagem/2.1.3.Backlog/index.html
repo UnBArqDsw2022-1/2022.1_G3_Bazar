@@ -1,0 +1,1083 @@
+
+<!doctype html>
+<html lang="pt" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      <link rel="icon" href="../../assets/favicon.svg">
+      <meta name="generator" content="mkdocs-1.4.1, mkdocs-material-8.5.7">
+    
+    
+      
+        <title>Product Backlog - 2022.1_G3_Bazar</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.20d9efc8.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.cbb835fc.min.css">
+        
+          
+          
+          <meta name="theme-color" content="">
+        
+      
+      
+
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,700,700i%7Csans-serif:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Montserrat";--md-code-font:"sans-serif"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/styles.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="#fff" data-md-color-accent="#0b4d9b">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#modelagem-agil" class="md-skip">
+          Ir para o conteúdo
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabeçalho">
+    <a href="../.." title="2022.1_G3_Bazar" class="md-header__button md-logo" aria-label="2022.1_G3_Bazar" data-md-component="logo">
+      
+  <img src="../../assets/favicon.svg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            2022.1_G3_Bazar
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Product Backlog
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Buscar" placeholder="Buscar" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Pesquisar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpar" aria-label="Limpar" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando a pesquisa
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://unbarqdsw2022-1.github.io/2022.1_G3_Bazar/" title="Ir ao repositório" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    2022.1_G3_Bazar
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navegação" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="2022.1_G3_Bazar" class="md-nav__button md-logo" aria-label="2022.1_G3_Bazar" data-md-component="logo">
+      
+  <img src="../../assets/favicon.svg" alt="logo">
+
+    </a>
+    2022.1_G3_Bazar
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://unbarqdsw2022-1.github.io/2022.1_G3_Bazar/" title="Ir ao repositório" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    2022.1_G3_Bazar
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        Início
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2">
+          1.Base
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="1.Base" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          1.Base
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_1" type="checkbox" id="__nav_2_1" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_1">
+          1.1. Módulo Projeto Não Orientado a Abordagens Específicas
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="1.1. Módulo Projeto Não Orientado a Abordagens Específicas" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_1">
+          <span class="md-nav__icon md-icon"></span>
+          1.1. Módulo Projeto Não Orientado a Abordagens Específicas
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Base/1.1.DesignSprint/" class="md-nav__link">
+        Design Sprint
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Base/1.1.5W2H/" class="md-nav__link">
+        5W2H
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Base/1.1.MapaMental/" class="md-nav__link">
+        Mapa Mental
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Base/1.1.Diagrama-Causa-Efeito/" class="md-nav__link">
+        Diagrama de Causa-Efeito
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Base/1.1.Custo-Tempo/" class="md-nav__link">
+        Custo e Tempo
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Base/1.1.RichPicture/" class="md-nav__link">
+        Rich Picture
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Base/1.1.Lexico/" class="md-nav__link">
+        Léxico
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Base/1.1.Planos-de-Risco/" class="md-nav__link">
+        Plano de Risco
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Base/1.2.ProcessosMetodologiasAbordagens/" class="md-nav__link">
+        1.2. Módulo Processos/Metodologias/Abordagens
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Base/1.3.IniciativasExtras/" class="md-nav__link">
+        1.3. Iniciativas Extras - Base
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Base/1.4.ParticipacoesBase/" class="md-nav__link">
+        1.4. Participações - Base
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3">
+          2.Modelagem
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="2.Modelagem" data-md-level="1">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          2.Modelagem
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_1" type="checkbox" id="__nav_3_1" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_1">
+          2.1.1.Notação UML – Diagramas Estáticos
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="2.1.1.Notação UML – Diagramas Estáticos" data-md-level="2">
+        <label class="md-nav__title" for="__nav_3_1">
+          <span class="md-nav__icon md-icon"></span>
+          2.1.1.Notação UML – Diagramas Estáticos
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2.1.1.DiagramaDeClasses/" class="md-nav__link">
+        Diagrama de Classes
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2.1.1.DiagramaComponentes/" class="md-nav__link">
+        Diagrama de Componentes
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2.1.1.DiagramaDeImplantacao/" class="md-nav__link">
+        Diagrama de Implantação
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2.1.1.DiagramaPacotes/" class="md-nav__link">
+        Diagrama de Pacotes
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_2" type="checkbox" id="__nav_3_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_2">
+          2.1.2. Notação UML – Diagramas Dinâmicos
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="2.1.2. Notação UML – Diagramas Dinâmicos" data-md-level="2">
+        <label class="md-nav__title" for="__nav_3_2">
+          <span class="md-nav__icon md-icon"></span>
+          2.1.2. Notação UML – Diagramas Dinâmicos
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2.1.2.DiagramaDeSequencia/" class="md-nav__link">
+        Diagrama de Sequência
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2.1.2.DiagramaEstados/" class="md-nav__link">
+        Diagrama de Estados
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2.1.2.DiagramaAtividades/" class="md-nav__link">
+        Diagrama de Atividades
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_3" type="checkbox" id="__nav_3_3" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_3">
+          2.1.3 Modelagem Ágil
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="2.1.3 Modelagem Ágil" data-md-level="2">
+        <label class="md-nav__title" for="__nav_3_3">
+          <span class="md-nav__icon md-icon"></span>
+          2.1.3 Modelagem Ágil
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Product Backlog
+      </a>
+      
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2.2.IniciativasExtras/" class="md-nav__link">
+        2.2. Iniciativas Extras - Modelagem
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2.3.ParticipacoesModelagem/" class="md-nav__link">
+        2.3. Participações - Modelagem
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="modelagem-agil">Modelagem Ágil</h1>
+<!-- 
+**Foco_03:** Modelagem Ágil
+Entrega Mínina: Backlog do Produto, Priorizado com MOSCOW, e com 3 Níveis de Granularidade (pelo menos).
+Apresentação (em sala) explicando o Backlog do Produto, com: (i) rastro claro aos membros participantes; (ii) justificativas & senso crítico sobre esse artefato; (iii) breve apresentação do Backlog, priorizado, e com três a seis níveis de granularidade (entre: Theme, Epic, Feature, Story, Task, Acceptance Criterion), e (iv) comentários gerais sobre iniciativas extras. Tempo da Apresentação: +/- 5min. Recomendação: Apresentar diretamente via Wiki ou GitPages do Projeto.
+A Wiki ou GitPages do Projeto deve conter um tópico dedicado ao Módulo Modelagem Ágil, com Backlog do Produto, histórico de versões, referências, vídeo de entrega, e demais detalhamentos gerados pela equipe nesse escopo.
+Demais orientações disponíveis nas Diretrizes (vide Moodle).
+-->
+
+<h1 id="1-product-backlog">1. Product Backlog</h1>
+<h2 id="11-introducao">1.1. Introdução</h2>
+<p style="text-indent: 20px; text-align: justify">
+O Product Backlog, um dos pilares do desenvolvimento Scrum, é uma lista contendo todas as funcionalidades desejadas para um produto. O conteúdo desta lista é definido pelo Product Owner, o responsável por gerenciar e definir esses itens. Ademais, o Product Backlog não precisa estar completo no início de um projeto, isto é, pode-se começar com tudo aquilo que é mais óbvio em um primeiro momento e com o tempo alterá-lo, a medida que se aprende mais sobre o produto e seus usuários.
+</p>
+
+<h2 id="12-metodologia">1.2. Metodologia</h2>
+<p style="text-indent: 20px; text-align: justify">
+Para a criação do backlog todos os integrantes do grupo se reunirão e por meio de um brainstorm os requisitos foram elicitados e em seguida modelados. As tasks das USs foram definidas pelo Ailton Aires.
+</p>
+
+<h2 id="13-product-backlog">1.3. Product Backlog</h2>
+<table>
+    <thead>
+        <tr style="background-color: #54CCFF">
+            <th style="border-style:solid;border-width:1px;text-align:center">Tema</th>
+            <th style="border-style:solid;border-width:1px;text-align:center">Épico</th>
+            <th style="border-style:solid;border-width:1px;text-align:center">Feature</th>
+            <th style="border-style:solid;border-width:1px;text-align:center">Rastreabilidade</th>
+            <th style="border-style:solid;border-width:1px;text-align:center">ID</th>
+            <th style="border-style:solid;border-width:1px;text-align:center">História de Usuário</th>
+            <th style="border-style:solid;border-width:1px;text-align:center">Tasks</th>
+            <th style="border-style:solid;border-width:1px;text-align:center">Prioridade</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle" rowspan="100%">Bazar</td>
+        </tr>
+        <tr>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle" rowspan="4"> Gerenciamento de registro do cliente</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle" rowspan="2">Registro do cliente</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle"> brainstorm e storyboard </td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">US01</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle"> Como cliente, eu gostaria de me cadastrar para que meus dados de compra fiquem salvos</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">Estruturar o Banco de Dados</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">Must</td>
+        </tr>
+        <tr>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle"> brainstorm</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">US02</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">Como cliente, eu gostaria de cadastrar dados de pagamento para facilitar a compra online.</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">Cadastrar cartão, implementar tela de pagamento cadastro dos dados</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">Could</td>
+        </tr>
+        <tr>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle" rowspan="2">Edição de dados do usuário</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">brainstorm</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">US03</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">Como cliente, eu gostaria de recuperar a minha senha para não perder minha conta.</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">Implementar botão "esqueci minha senha", opcção para colocar email de segurança</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">Could</td>
+        </tr>
+        <tr>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">brainstorm</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">US04</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">Como cliente, eu gostaria de editar os meus dados da conta para que não ocorra problemas com informações desatualizadas</td>
+             <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">Implementar botão para editar perfil, definir querys pra atualizar os dados no banco</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">Should</td>
+        </tr>
+        <tr>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle" rowspan = "3">Comunicação do cliente com a empresa</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle" rowspan = "2">Suporte de Usuário</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">brainstorm</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">US05</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">Como cliente, desejo ter acesso ao atendimento de usuário para conseguir informações sobre meu pedido</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">Implementar uma tela de SAC, disponibilizar canais de atendimento</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">Could</td>
+        </tr>
+        <tr>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">brainstorm</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">US06</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">Como cliente, desejo falar com os responsáveis pela venda para resolver eventuais problemas</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">Implementar e integrar chat entre vendedor e cliente</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">Could</td>
+        </tr>
+        <tr>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle"> Feedback do cliente</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">brainstorm</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">US07</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">Como cliente, desejo avaliar a compra efetuada para dar meu feedback ao vendedor.</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">Colocar uma aba de avaliação do pedido, criar um sistema em estrelas da avaliação do pedido</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">Should</td>
+        </tr>
+        <tr>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle" rowspan="13">Gerenciamento do pedido</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle" rowspan="9">Compra do produto</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle"> brainstorm e storyboard</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">US08</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle"> Como cliente, eu gostaria de ver os produtos disponíveis para que eu possa escolher qual comprar</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">Colocar um selo nos produtos disponíveis, filtrar os produtos por itens disponíveis</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">Must</td>
+        </tr>
+        <tr>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle" >brainstorm</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">US09</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle"> como cliente, eu gostaria de adicionar um produto ao meu carrinho para gerenciar a minha compra</td>
+             <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">Implementar um carrinho de compras, permitir que remova o item do carrinho, permitir que mova para a lista de desejos</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">Must</td>
+        </tr>
+        <tr>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle" >brainstorm</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">US10</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">  Como cliente, gostaria de receber informações de entrega para que eu saiba em que trajeto meu produto se encontra</td>
+             <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">Integrar o app com um sistema de rastreio, disponibilizar o código de rastreio</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">could</td>
+        </tr>
+        <tr>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle" >brainstorm e storyboard</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">US11</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">Como cliente, gostaria de receber informações sobre a finalização do meu pedido. </td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">Enviar uma mensagem de confirmação de entrega do pedido</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">Must</td>
+        </tr>
+        <tr>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle" >brainstorm</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">US12</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">Como cliente, desejo ter acesso a informações sobre o processamento do pagamento</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">Implementar uma tela de detalhes do pagamento, enviar por email o status do pagamento</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">should</td>
+        </tr>
+        <tr>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle" >brainstorm</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">US13</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">Como cliente, desejo poder visualizar os itens adicionados ao carrinho para confirmar meus pedidos antes de efetuar a compra.</td>
+             <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">Implementar uma tela de confirmação do pedido, disponibilizar o valor total da compra</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">Must</td>
+        </tr>
+        <tr>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle" >brainstorm</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">US14</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle"> Como usuário, desejo remover um ou mais itens do carrinho para caso eu desista da compra destes itens.</td>
+             <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">Implementar caixa de seleção de itens para serem removidos do carrinho </td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">Must</td>
+        </tr>
+              <tr>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle"> Protótipo </td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">US27</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle"> Como cliente, gostaria de cadastrar um produto na minha lista de desejos para que eu salve os produtos que mais gostei</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle"></td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">Could</td>
+        </tr>
+        <tr>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle"> Protótipo </td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">US28</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle"> Como cliente, gostaria de remover um produto na minha lista de desejos caso eu não tenha mais interesse no produto</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle"></td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">Could</td>
+        </tr>
+        <tr>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle" rowspan = "4">Venda do produto</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle" >brainstorm</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">US16</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle"> Como vendedor, desejo ter acesso ao pagamento referente ao meu produto vendido.</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">Disponibilizar tela de detalhes dos pagamentos para cada item vendido </td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">should</td>
+        </tr>
+        <tr>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle" >brainstorm</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">US17</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle"> Como vendedor, desejo visualizar a lista de produtos vendidos para fazer o encaminhamento para o cliente.</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">Disponibilizar tela da lista de itens vendidos </td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">should</td>
+        </tr>
+        <tr>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle" >brainstorm</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">US18</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle"> Como vendedor, gostaria de realizar uma ou mais vendas, para que os dados fiquem registrados no sistema. </td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">Permitir que os vendedores cadastrem um ou mais itens para venda </td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">should</td>
+        </tr>
+        <tr>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle" >brainstorm</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">US19</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">  Como vendedor, gostaria de poder gerar o recibo (nota fiscal) referente a venda, para poder fornecê-la ao cliente.</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">Implementar a geração da nota, permitir o download do arquivo </td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">should</td>
+        </tr>
+        <tr>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle" rowspan="2"> Gerenciamento do produto</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">Cadastro de produto</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle"> brainstorm</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">US20</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle"> Como vendedor, desejo realizar o cadastro de um produto para venda e disponibilizar na plataforma.</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">Permitir inserção de imagens do produto, título e descrição </td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">Must</td>
+        </tr>
+        <tr>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">Edição do produto</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle"> brainstorm</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">US21</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle"> Como vendedor, desejo tornar indisponível um produto cadastrado para quando não houver estoque.</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">Criar um botão pra remover o produto, criar uma query no banco de dados para remover/inativar a venda do produto </td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">Should</td>
+        </tr>
+              <tr>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle" rowspan="2"> Gerenciamento de campanha</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">Cadastro da campanha</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle"> StoryBoard </td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">US24</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle"> Como vendedor, gostaria de cadastrar uma campanha na plataforma</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle"></td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">Could</td>
+        </tr>
+        <tr>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">Edição da campanha</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle"> StoryBoard </td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">US25</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle"> Como vendedor, gostaria de editar uma campanha na plataforma</td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle"></td>
+            <td style="border-style:solid;border-width:1px;text-align:center;vertical-align:middle">Could</td>
+        </tr>
+    </tbody>
+<table>
+
+## Referências bibliográficas
+
+> SERRANO, Milene; SERRANO, Maurício. Requisitos (Aula 15): Elicitação, Modelagem e Análise. 2022. Apresentação de Power Point. 46 slides. color. Disponível em: https://aprender3.unb.br/pluginfile.php/1668185/mod_resource/content/1/Requisitos%20-%20Aula%2015a.pdf. Acesso em: 08 mar. 2022.
+
+## Histórico de versão
+| Data | Versão | Autor | Descrição | Revisor |
+| :-: | :-: | :-: | :-: | :-: |
+| 26/06/2022 | 1.0 | Todos | Criação do artefato: Backlog | Todos |
+| 15/07/2022 | 1.1 | [Ailton Aires](https://github.com/ailtonaires) | Criação das tasks para as USs | [Douglas Monteles](https://github.com/douglasmonteles) |
+| 30/07/2022 | 2.0 | [Ailton Aires](https://github.com/ailtonaires) | Criação das tasks para as USs | [Gabriel](https://github.com/GabrielCostaDeOliveira) |
+| 05/08/2022 | 3.0 | [Gabriel](https://github.com/GabrielCostaDeOliveira) [Ailton Aires](https://github.com/ailtonaires)  [Athur](https://github.com/art1505)| Adicionando rastreabilidades e novas US | |
+| 08/08/2022 | 3.1 | [Gabriel](https://github.com/GabrielCostaDeOliveira) [Lais](https://github.com/laispa)  [Douglas Monteles](https://github.com/douglasmonteles) |Correção da rastreabilidade | |
+| 11/08/2022 | 3.2 | [Gabriel](https://github.com/GabrielCostaDeOliveira) | Correção Estrutural| |
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+    <nav class="md-footer__inner md-grid" aria-label="Rodapé" >
+      
+        
+        <a href="../2.1.2.DiagramaAtividades/" class="md-footer__link md-footer__link--prev" aria-label="Anterior: Diagrama de Atividades" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Anterior
+              </span>
+              Diagrama de Atividades
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="../2.2.IniciativasExtras/" class="md-footer__link md-footer__link--next" aria-label="Próximo: 2.2. Iniciativas Extras - Modelagem" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Próximo
+              </span>
+              2.2. Iniciativas Extras - Modelagem
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.16e2a7d4.min.js", "translations": {"clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "search.config.lang": "pt", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Buscar", "search.result.more.one": "Mais 1 nesta p\u00e1gina", "search.result.more.other": "Mais # nesta p\u00e1gina", "search.result.none": "Nenhum resultado encontrado", "search.result.one": "1 resultado encontrado", "search.result.other": "# resultados encontrados", "search.result.placeholder": "Digite para iniciar a busca", "search.result.term.missing": "Ausente", "select.version.title": "Selecione a vers\u00e3o"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.8492ddcf.min.js"></script>
+      
+        <script src="../../javascripts/mathjax.js"></script>
+      
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+    
+  </body>
+</html>
